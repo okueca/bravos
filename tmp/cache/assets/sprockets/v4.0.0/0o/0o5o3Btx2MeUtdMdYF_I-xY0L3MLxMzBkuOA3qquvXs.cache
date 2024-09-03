@@ -1,0 +1,60 @@
+{:uriI"ãfile://app/assets/libs/apexcharts/locales/fi.json?type=application/json&id=5a90859e4cae38290320953c6dcc32f220678d57e4c53a1ff97bcdb83e5f11f3:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/fi.json;T:	nameI"apexcharts/locales/fi;T:logical_pathI"apexcharts/locales/fi.json;T:content_typeI"application/json;T:sourceI"{
+  "name": "fi",
+  "options": {
+    "months": [
+      "Tammikuu",
+      "Helmikuu",
+      "Maaliskuu",
+      "Huhtikuu",
+      "Toukokuu",
+      "Kes√§kuu",
+      "Hein√§kuu",
+      "Elokuu",
+      "Syyskuu",
+      "Lokakuu",
+      "Marraskuu",
+      "Joulukuu"
+    ],
+    "shortMonths": [
+      "Tammi",
+      "Helmi",
+      "Maalis",
+      "Huhti",
+      "Touko",
+      "Kes√§",
+      "Hein√§",
+      "Elo",
+      "Syys",
+      "Loka",
+      "Marras",
+      "Joulu"
+    ],
+    "days": [
+      "Sunnuntai",
+      "Maanantai",
+      "Tiistai",
+      "Keskiviikko",
+      "Torstai",
+      "Perjantai",
+      "Lauantai"
+    ],
+    "shortDays": ["Su", "Ma", "Ti", "Ke", "To", "Pe", "La"],
+    "toolbar": {
+      "exportToSVG": "Lataa SVG",
+      "exportToPNG": "Lataa PNG",
+      "exportToCSV": "Lataa CSV",
+      "menu": "Valikko",
+      "selection": "Valinta",
+      "selectionZoom": "Valinnan zoomaus",
+      "zoomIn": "L√§henn√§",
+      "zoomOut": "Loitonna",
+      "pan": "Panoroi",
+      "reset": "Nollaa zoomaus"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/fi.json;TTF:charsetI"
+utf-8;F:digest"%nÎ{{!∆ã5”M‚ﬂzë€5ÿ≈˛i\é.4˚›∫:lengthi:environment_versionI"1.0;T:dependencies_digest"%À2]˙òÍO†a—Ø∆áxs«ª≈…¿N∆µ¢Ï§õ+¬(:idI"E5a90859e4cae38290320953c6dcc32f220678d57e4c53a1ff97bcdb83e5f11f3;F

@@ -1,0 +1,52 @@
+{:uriI"ãfile://app/assets/libs/apexcharts/locales/id.json?type=application/json&id=a9e8638fb5dcccab819fc4c5a5e3020a5dc8c24a963b53ff1f162f7ce342c107:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/id.json;T:	nameI"apexcharts/locales/id;T:logical_pathI"apexcharts/locales/id.json;T:content_typeI"application/json;T:sourceI"ï{
+  "name": "id",
+  "options": {
+    "months": [
+      "Januari",
+      "Februari",
+      "Maret",
+      "April",
+      "Mei",
+      "Juni",
+      "Juli",
+      "Agustus",
+      "September",
+      "Oktober",
+      "November",
+      "Desember"
+    ],
+    "shortMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Mei",
+      "Jun",
+      "Jul",
+      "Agu",
+      "Sep",
+      "Okt",
+      "Nov",
+      "Des"
+    ],
+    "days": ["Minggu", "Senin", "Selasa", "Rabu", "kamis", "Jumat", "Sabtu"],
+    "shortDays": ["Min", "Sen", "Sel", "Rab", "Kam", "Jum", "Sab"],
+    "toolbar": {
+      "exportToSVG": "Unduh SVG",
+      "exportToPNG": "Unduh PNG",
+      "exportToCSV": "Unduh CSV",
+      "menu": "Menu",
+      "selection": "Pilihan",
+      "selectionZoom": "Perbesar Pilihan",
+      "zoomIn": "Perbesar",
+      "zoomOut": "Perkecil",
+      "pan": "Geser",
+      "reset": "Atur Ulang Zoom"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/id.json;TTF:charsetI"
+utf-8;F:digest"%ëë:xz°ü	Oè}fr∏€é!\À"I˝Vì‹:lengthiï:environment_versionI"1.0;T:dependencies_digest"%ÈyëŒ¶Oì¢;é_uÏØ◊D±x*…Ùr‚BbûÔi™:idI"Ea9e8638fb5dcccab819fc4c5a5e3020a5dc8c24a963b53ff1f162f7ce342c107;F

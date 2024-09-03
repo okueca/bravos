@@ -1,0 +1,60 @@
+{:uriI"�file://app/assets/libs/apexcharts/locales/he.json?type=application/json&id=0ac7785f5a0ff4ba0624e335e70d429bad012ff58749845a5de8513c28828409:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/he.json;T:	nameI"apexcharts/locales/he;T:logical_pathI"apexcharts/locales/he.json;T:content_typeI"application/json;T:sourceI"i{
+  "name": "he",
+  "options": {
+    "months": [
+      "ינואר",
+      "פברואר",
+      "מרץ",
+      "אפריל",
+      "מאי",
+      "יוני",
+      "יולי",
+      "אוגוסט",
+      "ספטמבר",
+      "אוקטובר",
+      "נובמבר",
+      "דצמבר"
+    ],
+    "shortMonths": [
+      "ינו׳",
+      "פבר׳",
+      "מרץ",
+      "אפר׳",
+      "מאי",
+      "יוני",
+      "יולי",
+      "אוג׳",
+      "ספט׳",
+      "אוק׳",
+      "נוב׳",
+      "דצמ׳"
+    ],
+    "days": [
+      "ראשון",
+      "שני",
+      "שלישי",
+      "רביעי",
+      "חמישי",
+      "שישי",
+      "שבת"
+    ],
+    "shortDays": ["א׳", "ב׳", "ג׳", "ד׳", "ה׳", "ו׳", "ש׳"],
+    "toolbar": {
+      "exportToSVG": "הורד SVG",
+      "exportToPNG": "הורד PNG",
+      "exportToCSV": "הורד CSV",
+      "menu": "תפריט",
+      "selection": "בחירה",
+      "selectionZoom": "זום בחירה",
+      "zoomIn": "הגדלה",
+      "zoomOut": "הקטנה",
+      "pan": "הזזה",
+      "reset": "איפוס תצוגה"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/he.json;TTF:charsetI"
+utf-8;F:digest"%d�@=ez�lC}�u�me�9Q�0�vPWս�>:lengthii:environment_versionI"1.0;T:dependencies_digest"%0�H]��b�'Q��NT��#�$��x߶���l:idI"E0ac7785f5a0ff4ba0624e335e70d429bad012ff58749845a5de8513c28828409;F

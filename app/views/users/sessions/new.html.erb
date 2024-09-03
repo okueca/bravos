@@ -1,0 +1,86 @@
+<div class="account-pages mt-5 mb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-4">
+                        <div class="card bg-pattern">
+
+                            <div class="card-body p-4">
+                                
+                                <div class="text-center w-75 m-auto">
+                                    <div class="auth-brand">
+                                        <a href="index.html" class="logo logo-dark text-center">
+                                            <span class="logo-lg">
+                                                <img src="<%= asset_path('images/logo-dark.png') %>" height="22">
+                                            </span>
+                                        </a>
+                    
+                                        <a href="index.html" class="logo logo-light text-center">
+                                            <span class="logo-lg">
+                                                <img src="assets/images/logo-light.png" alt="" height="22">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+                                    <div class="mb-3">
+                                        <label for="emailaddress" class="form-label">Email address</label>
+                                        <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control" %>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password</label>
+                                        <div class="input-group input-group-merge">
+                                            <%= f.password_field :password, autocomplete: "current-password" , class:"form-control" %>
+                                            <div class="input-group-text" data-password="false">
+                                                <span class="password-eye"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <% if devise_mapping.rememberable? %>
+                                        <div class="field">
+                                        
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <%= f.check_box :remember_me, class:"form-check-input" %>
+                                                <%= f.label :remember_me, class:"form-check-label"%>
+                                            </div>
+                                        </div>
+                                    <% end %>
+
+                                    <div class="actions mb-3">
+                                        <%= f.submit "Log in", class:"btn btn-primary" %>
+                                    </div>
+                                <% end %>
+                                <%= render "users/shared/links" %>
+
+
+                            </div> <!-- end card-body -->
+                        </div>
+                        <!-- end card -->
+
+                        <div class="row mt-3">
+                            <div class="col-12 text-center">
+                                <p> <a href="auth-recoverpw.html" class="text-white-50 ms-1">Forgot your password?</a></p>
+                                <p class="text-white-50">Don't have an account? <a href="auth-register.html" class="text-white ms-1"><b>Sign Up</b></a></p>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div> <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end page -->
+
+
+        <footer class="footer footer-alt">
+            2024 - <script>document.write(new Date().getFullYear())</script> &copy; by <a href="" class="text-white-50">Okueca</a> 
+        </footer>
+
+        <!-- Authentication js -->
+        <script src="assets/js/pages/authentication.init.js"></script>
+
+

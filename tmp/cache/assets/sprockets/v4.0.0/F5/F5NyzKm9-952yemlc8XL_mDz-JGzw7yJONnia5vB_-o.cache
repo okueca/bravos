@@ -1,0 +1,29 @@
+{:uriI"†file://app/assets/libs/waypoints/testem.json?type=application/json&id=26f75f0302adb266e39e5538083e66caeba48c45c4dd6bd9a632a30079d0f726:ET:load_pathI"app/assets/libs;T:filenameI"*app/assets/libs/waypoints/testem.json;T:	nameI"waypoints/testem;T:logical_pathI"waypoints/testem.json;T:content_typeI"application/json;T:sourceI"Ï{
+  "framework": "jasmine",
+  "launch_in_dev": [
+    "PhantomJS"
+  ],
+  "launch_in_ci": [
+    "PhantomJS"
+  ],
+  "src_files": [
+    "bower_components/jquery/dist/jquery.js",
+    "bower_components/jasmine-jquery/lib/jasmine-jquery.js",
+    "bower_components/zepto/zepto.js",
+
+    "src/waypoint.js",
+    "src/context.js",
+    "src/group.js",
+    "src/debug.js",
+    "src/adapters/*.js",
+    "src/shortcuts/*.js",
+
+    "test/settings.js",
+    "test/*-spec.js"
+  ]
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"8file-digest://app/assets/libs/waypoints/testem.json;TTF:charsetI"
+utf-8;F:digest"%Ô"½–0Öë{aöølpzl8şh^&‘óhú»«7DÓ:lengthiÏ:environment_versionI"1.0;T:dependencies_digest"%!;4VVS&æÉ…#cv;ƒ°…x…¸—0n÷Î©‰:idI"E26f75f0302adb266e39e5538083e66caeba48c45c4dd6bd9a632a30079d0f726;F

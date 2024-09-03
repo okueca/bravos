@@ -1,0 +1,69 @@
+{:uriI"�file://app/assets/libs/apexcharts/locales/ar.json?type=application/json&id=5a9bf252dd2c4c00dfb042bc9dac478eb19a27a797a241c4d021bf1f2014cd47:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/ar.json;T:	nameI"apexcharts/locales/ar;T:logical_pathI"apexcharts/locales/ar.json;T:content_typeI"application/json;T:sourceI"�{
+"name": "ar",
+"options": {
+"months": [
+"يناير",
+"فبراير",
+"مارس",
+"أبريل",
+"مايو",
+"يونيو",
+"يوليو",
+"أغسطس",
+"سبتمبر",
+"أكتوبر",
+"نوفمبر",
+"ديسمبر"
+],
+"shortMonths": [
+"يناير",
+"فبراير",
+"مارس",
+"أبريل",
+"مايو",
+"يونيو",
+"يوليو",
+"أغسطس",
+"سبتمبر",
+"أكتوبر",
+"نوفمبر",
+"ديسمبر"
+],
+"days": [
+"الأحد",
+"الإثنين",
+"الثلاثاء",
+"الأربعاء",
+"الخميس",
+"الجمعة",
+"السبت"
+],
+"shortDays": [
+"أحد",
+"إثنين",
+"ثلاثاء",
+"أربعاء",
+"خميس",
+"جمعة",
+"سبت"
+],
+"toolbar": {
+"exportToSVG": "تحميل بصيغة SVG",
+"exportToPNG": "تحميل بصيغة PNG",
+"exportToCSV": "تحميل بصيغة CSV",
+"menu": "القائمة",
+"selection": "تحديد",
+"selectionZoom": "تكبير التحديد",
+"zoomIn": "تكبير",
+"zoomOut": "تصغير",
+"pan": "تحريك",
+"reset": "إعادة التعيين"
+}
+}
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/ar.json;TTF:charsetI"
+utf-8;F:digest"%sP���J�H4֜��g���u��;G��yǻc��:lengthi�:environment_versionI"1.0;T:dependencies_digest"%D2��[��&n�E���sK
+7��^�1^G�:idI"E5a9bf252dd2c4c00dfb042bc9dac478eb19a27a797a241c4d021bf1f2014cd47;F

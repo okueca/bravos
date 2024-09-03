@@ -1,0 +1,60 @@
+{:uriI"�file://app/assets/libs/apexcharts/locales/ja.json?type=application/json&id=ac71dc82486a35187507bcf4b15a678db352431df7cfde2e9a6b591589a9da45:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/ja.json;T:	nameI"apexcharts/locales/ja;T:logical_pathI"apexcharts/locales/ja.json;T:content_typeI"application/json;T:sourceI"{
+  "name": "ja",
+  "options": {
+    "months": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "shortMonths": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "days": [
+      "日曜日",
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "木曜日",
+      "金曜日",
+      "土曜日"
+    ],
+    "shortDays": ["日", "月", "火", "水", "木", "金", "土"],
+    "toolbar": {
+      "exportToSVG": "SVGダウンロード",
+      "exportToPNG": "PNGダウンロード",
+      "exportToCSV": "CSVダウンロード",
+      "menu": "メニュー",
+      "selection": "選択",
+      "selectionZoom": "選択ズーム",
+      "zoomIn": "拡大",
+      "zoomOut": "縮小",
+      "pan": "パン",
+      "reset": "ズームリセット"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/ja.json;TTF:charsetI"
+utf-8;F:digest"%4_�jb,XO�K'��W�fa���0�]����x:lengthi:environment_versionI"1.0;T:dependencies_digest"%�s��^Ax})��ߍi�b���-ʆT-�b5j:idI"Eac71dc82486a35187507bcf4b15a678db352431df7cfde2e9a6b591589a9da45;F

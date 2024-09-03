@@ -1,0 +1,60 @@
+{:uriI"‹file://app/assets/libs/apexcharts/locales/hr.json?type=application/json&id=ab65468266550e82ea197b59ab4d6782bbe2e18f75ee9aeb0719818df4c2ffdb:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/hr.json;T:	nameI"apexcharts/locales/hr;T:logical_pathI"apexcharts/locales/hr.json;T:content_typeI"application/json;T:sourceI"{
+  "name": "hr",
+  "options": {
+    "months": [
+      "SijeÄanj",
+      "VeljaÄa",
+      "OÅ¾ujak",
+      "Travanj",
+      "Svibanj",
+      "Lipanj",
+      "Srpanj",
+      "Kolovoz",
+      "Rujan",
+      "Listopad",
+      "Studeni",
+      "Prosinac"
+    ],
+    "shortMonths": [
+      "Sij",
+      "Velj",
+      "OÅ¾u",
+      "Tra",
+      "Svi",
+      "Lip",
+      "Srp",
+      "Kol",
+      "Ruj",
+      "Lis",
+      "Stu",
+      "Pro"
+    ],
+    "days": [
+      "Nedjelja",
+      "Ponedjeljak",
+      "Utorak",
+      "Srijeda",
+      "ÄŒetvrtak",
+      "Petak",
+      "Subota"
+    ],
+    "shortDays": ["Ned", "Pon", "Uto", "Sri", "ÄŒet", "Pet", "Sub"],
+    "toolbar": {
+      "exportToSVG": "Preuzmi SVG",
+      "exportToPNG": "Preuzmi PNG",
+      "exportToCSV": "Preuzmi CSV",
+      "menu": "Izbornik",
+      "selection": "Odabir",
+      "selectionZoom": "Odabirno poveÄ‡anje",
+      "zoomIn": "UveÄ‡ajte prikaz",
+      "zoomOut": "Umanjite prikaz",
+      "pan": "Pomicanje",
+      "reset": "Povratak na zadani prikaz"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/hr.json;TTF:charsetI"
+utf-8;F:digest"%QÏÆt„ä>U ã¡šÄÍèÕ1ğ¬Á‡Bû{7–†:lengthi:environment_versionI"1.0;T:dependencies_digest"%Ö3¢YšxîŸÒˆÌœàÛ§Æz†|•~İø7gê~ó`:idI"Eab65468266550e82ea197b59ab4d6782bbe2e18f75ee9aeb0719818df4c2ffdb;F

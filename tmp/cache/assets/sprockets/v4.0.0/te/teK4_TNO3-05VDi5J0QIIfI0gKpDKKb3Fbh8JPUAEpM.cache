@@ -1,0 +1,60 @@
+{:uriI"‹file://app/assets/libs/apexcharts/locales/pt.json?type=application/json&id=34c8cce059b50dc84f506fcc3b266d7232d39cd314599aff53b08568469c03d7:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/pt.json;T:	nameI"apexcharts/locales/pt;T:logical_pathI"apexcharts/locales/pt.json;T:content_typeI"application/json;T:sourceI"ù{
+  "name": "pt",
+  "options": {
+    "months": [
+      "Janeiro",
+      "Fevereiro",
+      "MarÃ§o",
+      "Abril",
+      "Maio",
+      "Junho",
+      "Julho",
+      "Agosto",
+      "Setembro",
+      "Outubro",
+      "Novembro",
+      "Dezembro"
+    ],
+    "shortMonths": [
+      "Jan",
+      "Fev",
+      "Mar",
+      "Abr",
+      "Mai",
+      "Jun",
+      "Jul",
+      "Ag",
+      "Set",
+      "Out",
+      "Nov",
+      "Dez"
+    ],
+    "days": [
+      "Domingo",
+      "Segunda-feira",
+      "TerÃ§a-feira",
+      "Quarta-feira",
+      "Quinta-feira",
+      "Sexta-feira",
+      "SÃ¡bado"
+    ],
+    "shortDays": ["Do", "Se", "Te", "Qa", "Qi", "Sx", "Sa"],
+    "toolbar": {
+      "exportToSVG": "Baixar SVG",
+      "exportToPNG": "Baixar PNG",
+      "exportToCSV": "Baixar CSV",
+      "menu": "Menu",
+      "selection": "Selecionar",
+      "selectionZoom": "Zoom: Selecionar",
+      "zoomIn": "Zoom: Aumentar",
+      "zoomOut": "Zoom: Diminuir",
+      "pan": "Deslocamento",
+      "reset": "Redefinir"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/pt.json;TTF:charsetI"
+utf-8;F:digest"%Ês}0áæÝ®m«qŽ¢†È/-¶,Ñ€Et	<­€ªÄ¨	:lengthiù:environment_versionI"1.0;T:dependencies_digest"%›£§Êpsr`ÿ®S‰µT@«;ËDÖòe–hP1°›:idI"E34c8cce059b50dc84f506fcc3b266d7232d39cd314599aff53b08568469c03d7;F

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bravos</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta content="Bravos | Torneio de Futebol 5" name="description" />
+    <meta name="theme-color" content="red" />
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= javascript_importmap_tags %>
+    
+
+    <!-- Plugins css Alterado-->
+    <link href="<%= asset_path('libs/flatpickr/flatpickr.min.css') %>" rel="stylesheet" type="text/css" />
+    <link href="<%= asset_path('libs/selectize/css/selectize.bootstrap3.css') %>" rel="stylesheet" type="text/css" />
+
+    <!-- Stylesheet e Js do TRIX--->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">
+    <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
+
+    <!-- Bootstrap css -->
+    <link href="<%= asset_path('bootstrap.min.css') %>" rel="stylesheet" type="text/css" />
+
+    <!-- App css -->
+    <link href="<%= asset_path('app.min.css') %>" rel="stylesheet" type="text/css" id="app-style"/>
+
+    <!-- icons     -->
+    <%= stylesheet_link_tag 'icons' %>
+
+    <!-- Head js -->
+    <script src="<%= asset_path('jquery.min.js') %>"></script>
+    <script src="<%= asset_path('select2.min.js') %>"></script>
+    <script src="<%= asset_path('head.js') %>"></script>
+    <script src="<%= asset_path('select2.min.css') %>"></script>
+
+    <link href="<%= asset_path('libs/fullcalendar/main.min.css') %>" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="<%= asset_path('libs/apexcharts/apexcharts.min.js') %>"></script>
+    <style>
+        /* Optional: Styling for demonstration */
+        .disabled {
+            pointer-events: none; /* Prevents mouse clicks */
+            opacity: 0.5; /* Adds visual indication of disabled state */
+        }
+    </style>
+  </head>
+
+  <body>
+        <!-- Begin page -->
+        <div id="wrapper">
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+
+                <!-- ========== Topbar Start ========== -->
+                <div class="navbar-custom">
+                    <div class="topbar">
+                        <div class="topbar-menu d-flex align-items-center gap-1">
+
+                            <!-- Topbar Brand Logo -->
+                            <div class="logo-box">
+                                <!-- Brand Logo Light -->
+                                <a data-turbo="false" href="index.html" class="logo-light">
+                                    <img src="<%= asset_path('images/logo-light.png') %>" alt="logo" class="logo-lg">
+                                    <img src="<%= asset_path('images/logo-sm.png') %>" alt="small logo" class="logo-sm">
+                                </a>
+
+                                <!-- Brand Logo Dark -->
+                                <a data-turbo="false" href="index.html" class="logo-dark">
+                                    <img src="<%= asset_path('images/logo-dark.png') %>" alt="dark logo" class="logo-lg">
+                                    <img src="<%= asset_path('images/logo-sm.png') %>" alt="small logo" class="logo-sm">
+                                </a>
+                            </div>
+
+                            <!-- Sidebar Menu Toggle Button
+                            <button class="button-toggle-menu ">
+                                <i data-feather="menu"></i>
+                            </button>
+                             -->
+                            <div class="row d-block d-sm-none">
+                                
+                                <a data-turbo="false" class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    <i data-feather="menu"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
+                                      <!-- item-->
+                                      <!-- item-->
+                                  <a data-turbo="false" href="javascript:void(0);" class="dropdown-item notify-item">
+                                      <i class="fe-user me-1"></i>
+                                      <span>Painel</span>
+                                  </a>
+
+                                  <!-- item-->
+                                  <a data-turbo="false" href="javascript:void(0);" class="dropdown-item notify-item">
+                                      <i class="fe-settings me-1"></i>
+                                      <span>Minhas Equipas</span>
+                                  </a>
+
+                                  <!-- item-->
+                                  <a data-turbo="false" href="javascript:void(0);" class="dropdown-item notify-item">
+                                      <i class="fe-log-out me-1"></i>
+                                      <span>Sair</span>
+                                  </a>
+                                </div>
+                            </div>
+
+                            <!-- Dropdown Menu -->
+                            <div class="dropdown d-none d-xl-block">
+                                <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    Painel
+                                    <i class="mdi mdi-chevron-down ms-1"></i>
+                                </a>
+                            </div>
+
+                            <div class="dropdown dropdown-mega d-none d-xl-block">
+                                <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    Minhas Equipas
+                                    <i class="mdi mdi-chevron-down ms-1"></i>
+                                </a>
+                            </div>
+
+                            <div class="dropdown dropdown-mega d-none d-xl-block">
+                                <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    Sair
+                                    <i class="mdi mdi-chevron-down ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== Topbar End ========== -->
+
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                         <%= yield %>
+                        
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div><script>document.write(new Date().getFullYear())</script> © Okueca - <a data-turbo="false" href="https://www.instagram.com/okueca/" target="_blank">Check out our services</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+       
+
+        <!-- Vendor js -->
+        <script src="<%= asset_path('vendor.min.js') %>"></script>
+
+        <!-- Plugins js-->
+        <script src="<%= asset_path('libs/flatpickr/flatpickr.min.js') %>"></script>
+        <script src="<%= asset_path('libs/selectize/js/standalone/selectize.min.js') %>"></script>
+
+        <!-- Dashboar 1 init js-->
+        <script src="<%= asset_path('pages/dashboard-1.init.js') %>"></script>
+
+        <!-- App js-->
+        <script src="<%= asset_path('app.min.js') %>"></script>
+
+        <script src="<%= asset_path('libs/datatables.net/js/jquery.dataTables.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-responsive/js/dataTables.responsive.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-buttons/js/dataTables.buttons.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-buttons-bs5/js/buttons.bootstrap5.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-buttons/js/buttons.html5.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-buttons/js/buttons.flash.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-buttons/js/buttons.print.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-keytable/js/dataTables.keyTable.min.js') %>"></script>
+        <script src="<%= asset_path('libs/datatables.net-select/js/dataTables.select.min.js') %>"></script>
+        <script src="<%= asset_path('index.js') %>"></script>
+        <script src="<%= asset_path('pages/datatables.init.js') %>"></script>
+
+        <!----- Calendar---->
+
+        <script src="<%= asset_path('libs/moment/min/moment.min.js') %>"></script>
+        <script src="<%= asset_path('libs/fullcalendar/main.min.js') %>"></script>
+        <script src="<%= asset_path('libs/autonumeric/autoNumeric.min.js') %>"></script>
+
+        <!-- Calendar init -->
+        <script src="<%= asset_path('pages/calendar.init.js') %>"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                setTimeout(function(){
+                    $('#flash').remove();
+                }, 5000);
+            })
+        </script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+{:uriI"‹file://app/assets/libs/apexcharts/locales/sq.json?type=application/json&id=bccf6e0fa8654a7aeb67a43c04a3610a12e8c214ce94eff12113b2890cc5311d:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/sq.json;T:	nameI"apexcharts/locales/sq;T:logical_pathI"apexcharts/locales/sq.json;T:content_typeI"application/json;T:sourceI"ç{
+  "name": "sq",
+  "options": {
+    "months": [
+      "Janar",
+      "Shkurt",
+      "Mars",
+      "Prill",
+      "Maj",
+      "Qershor",
+      "Korrik",
+      "Gusht",
+      "Shtator",
+      "Tetor",
+      "NÃ«ntor",
+      "Dhjetor"
+    ],
+    "shortMonths": [
+      "Jan",
+      "Shk",
+      "Mar",
+      "Pr",
+      "Maj",
+      "Qer",
+      "Korr",
+      "Gush",
+      "Sht",
+      "Tet",
+      "NÃ«n",
+      "Dhj"
+    ],
+    "days": [
+      "e DielÃ«",
+      "e HÃ«nÃ«",
+      "e MartÃ«",
+      "e MÃ«rkurÃ«",
+      "e Enjte",
+      "e Premte",
+      "e ShtunÃ«"
+    ],
+    "shortDays": ["Die", "HÃ«n", "Mar", "MÃ«r", "Enj", "Pre", "Sht"],
+    "toolbar": {
+      "exportToSVG": "Shkarko SVG",
+      "exportToPNG": "Shkarko PNG",
+      "exportToCSV": "Shkarko CSV",
+      "menu": "Menu",
+      "selection": "Seleksiono",
+      "selectionZoom": "Seleksiono Zmadhim",
+      "zoomIn": "Zmadho",
+      "zoomOut": "ZvogÃ«lo",
+      "pan": "Spostoje",
+      "reset": "Rikthe dimensionin"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/sq.json;TTF:charsetI"
+utf-8;F:digest"%>sMVa;(I+&b‹‰Ò2Ï¦KgÊ³…îï<:lengthiç:environment_versionI"1.0;T:dependencies_digest"%qŒ-éÕm›à$½8B:©¯óï†’¼õƒÚÇ.w˜W'ÛZ:idI"Ebccf6e0fa8654a7aeb67a43c04a3610a12e8c214ce94eff12113b2890cc5311d;F

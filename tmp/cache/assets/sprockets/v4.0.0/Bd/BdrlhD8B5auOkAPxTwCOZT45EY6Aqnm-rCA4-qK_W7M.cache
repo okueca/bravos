@@ -1,0 +1,60 @@
+{:uriI"ãfile://app/assets/libs/apexcharts/locales/pl.json?type=application/json&id=bc898e0cf401d3e72f582f39f21b8d202729373ae55561c55ffbbbb7989ff12c:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/pl.json;T:	nameI"apexcharts/locales/pl;T:logical_pathI"apexcharts/locales/pl.json;T:content_typeI"application/json;T:sourceI"Ù{
+  "name": "pl",
+  "options": {
+    "months": [
+      "Stycze≈Ñ",
+      "Luty",
+      "Marzec",
+      "Kwiecie≈Ñ",
+      "Maj",
+      "Czerwiec",
+      "Lipiec",
+      "Sierpie≈Ñ",
+      "Wrzesie≈Ñ",
+      "Pa≈∫dziernik",
+      "Listopad",
+      "Grudzie≈Ñ"
+    ],
+    "shortMonths": [
+      "Sty",
+      "Lut",
+      "Mar",
+      "Kwi",
+      "Maj",
+      "Cze",
+      "Lip",
+      "Sie",
+      "Wrz",
+      "Pa≈∫",
+      "Lis",
+      "Gru"
+    ],
+    "days": [
+      "Niedziela",
+      "Poniedzia≈Çek",
+      "Wtorek",
+      "≈öroda",
+      "Czwartek",
+      "PiƒÖtek",
+      "Sobota"
+    ],
+    "shortDays": ["Nd", "Pn", "Wt", "≈ör", "Cz", "Pt", "Sb"],
+    "toolbar": {
+      "exportToSVG": "Pobierz SVG",
+      "exportToPNG": "Pobierz PNG",
+      "exportToCSV": "Pobierz CSV",
+      "menu": "Menu",
+      "selection": "Wybieranie",
+      "selectionZoom": "Zoom: Wybieranie",
+      "zoomIn": "Zoom: Przybli≈º",
+      "zoomOut": "Zoom: Oddal",
+      "pan": "Przesuwanie",
+      "reset": "Resetuj"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/pl.json;TTF:charsetI"
+utf-8;F:digest"%î√ûÃYvwµºìk9g—u9ˆeœÈ{7Îƒù…&m£u:lengthiÙ:environment_versionI"1.0;T:dependencies_digest"%≥I3Aú‹ÖÎPiàxR˘ºÃVkÏê¡J—'´IX3:idI"Ebc898e0cf401d3e72f582f39f21b8d202729373ae55561c55ffbbbb7989ff12c;F

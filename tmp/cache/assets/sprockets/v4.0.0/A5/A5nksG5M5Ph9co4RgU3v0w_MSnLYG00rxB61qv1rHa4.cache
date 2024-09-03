@@ -1,0 +1,61 @@
+{:uriI"�file://app/assets/libs/apexcharts/locales/ka.json?type=application/json&id=1ec6d36a2f58190b014b08eb89be68ee46d5eb8f7b9129f24a298bb422238288:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/ka.json;T:	nameI"apexcharts/locales/ka;T:logical_pathI"apexcharts/locales/ka.json;T:content_typeI"application/json;T:sourceI"R{
+  "name": "ka",
+  "options": {
+    "months": [
+      "იანვარი",
+      "თებერვალი",
+      "მარტი",
+      "აპრილი",
+      "მაისი",
+      "ივნისი",
+      "ივლისი",
+      "აგვისტო",
+      "სექტემბერი",
+      "ოქტომბერი",
+      "ნოემბერი",
+      "დეკემბერი"
+    ],
+    "shortMonths": [
+      "იან",
+      "თებ",
+      "მარ",
+      "აპრ",
+      "მაი",
+      "ივნ",
+      "ივლ",
+      "აგვ",
+      "სექ",
+      "ოქტ",
+      "ნოე",
+      "დეკ"
+    ],
+    "days": [
+      "კვირა",
+      "ორშაბათი",
+      "სამშაბათი",
+      "ოთხშაბათი",
+      "ხუთშაბათი",
+      "პარასკევი",
+      "შაბათი"
+    ],
+    "shortDays": ["კვი", "ორშ", "სამ", "ოთხ", "ხუთ", "პარ", "შაბ"],
+    "toolbar": {
+      "exportToSVG": "გადმოქაჩე SVG",
+      "exportToPNG": "გადმოქაჩე PNG",
+      "exportToCSV": "გადმოქაჩე CSV",
+      "menu": "მენიუ",
+      "selection": "არჩევა",
+      "selectionZoom": "არჩეულის გადიდება",
+      "zoomIn": "გადიდება",
+      "zoomOut": "დაპატარაება",
+      "pan": "გადაჩოჩება",
+      "reset": "გადიდების გაუქმება"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/ka.json;TTF:charsetI"
+utf-8;F:digest"%�@e�;S��� HT����2!�B�$���:lengthiR:environment_versionI"1.0;T:dependencies_digest"% ��������Ӱ�j:��en���Or�%
+� �:idI"E1ec6d36a2f58190b014b08eb89be68ee46d5eb8f7b9129f24a298bb422238288;F

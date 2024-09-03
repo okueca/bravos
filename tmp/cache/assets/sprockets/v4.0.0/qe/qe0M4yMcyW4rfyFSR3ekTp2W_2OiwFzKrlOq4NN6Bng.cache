@@ -1,0 +1,60 @@
+{:uriI"ãfile://app/assets/libs/apexcharts/locales/fr.json?type=application/json&id=3b3bc49529d36d974c8dabb386e1f8ed23f843f939134651f1a4df786b1cb156:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/fr.json;T:	nameI"apexcharts/locales/fr;T:logical_pathI"apexcharts/locales/fr.json;T:content_typeI"application/json;T:sourceI"/{
+  "name": "fr",
+  "options": {
+    "months": [
+      "janvier",
+      "f√©vrier",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "ao√ªt",
+      "septembre",
+      "octobre",
+      "novembre",
+      "d√©cembre"
+    ],
+    "shortMonths": [
+      "janv.",
+      "f√©vr.",
+      "mars",
+      "avr.",
+      "mai",
+      "juin",
+      "juill.",
+      "ao√ªt",
+      "sept.",
+      "oct.",
+      "nov.",
+      "d√©c."
+    ],
+    "days": [
+      "dimanche",
+      "lundi",
+      "mardi",
+      "mercredi",
+      "jeudi",
+      "vendredi",
+      "samedi"
+    ],
+    "shortDays": ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
+    "toolbar": {
+      "exportToSVG": "T√©l√©charger au format SVG",
+      "exportToPNG": "T√©l√©charger au format PNG",
+      "exportToCSV": "T√©l√©charger au format CSV",
+      "menu": "Menu",
+      "selection": "S√©lection",
+      "selectionZoom": "S√©lection et zoom",
+      "zoomIn": "Zoomer",
+      "zoomOut": "D√©zoomer",
+      "pan": "Navigation",
+      "reset": "R√©initialiser le zoom"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/fr.json;TTF:charsetI"
+utf-8;F:digest"%ÕÈs≈´l#˝ 9G‰pø)´∏ŒacçÅ“05Û~E:lengthi/:environment_versionI"1.0;T:dependencies_digest"%,ﬁmAò0õQ}û;ñçÄV`Ùü\€{∞ﬁùR§:idI"E3b3bc49529d36d974c8dabb386e1f8ed23f843f939134651f1a4df786b1cb156;F

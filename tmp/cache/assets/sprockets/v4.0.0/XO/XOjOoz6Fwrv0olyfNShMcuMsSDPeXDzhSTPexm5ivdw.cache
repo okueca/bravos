@@ -1,0 +1,21 @@
+{:uriI"Åfile://app/assets/libs/gmaps/jsdoc.json?type=application/json&id=e0df70ae10853d7a90bb4137ec82c3fbfbee04cb4bf6158fbb42749aaa5948b8:ET:load_pathI"app/assets/libs;T:filenameI"%app/assets/libs/gmaps/jsdoc.json;T:	nameI"gmaps/jsdoc;T:logical_pathI"gmaps/jsdoc.json;T:content_typeI"application/json;T:sourceI"{
+  "source": {
+    "include": [ "./lib" ],
+    "includePattern": ".js$"
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "markdown": {
+    "hardwrap": true
+  },
+  "opts": {
+    "template": "node_modules/docdash",
+    "recurse": true,
+    "destination": "./docs"
+  }
+};T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"3file-digest://app/assets/libs/gmaps/jsdoc.json;TTF:charsetI"
+utf-8;F:digest"%Tñ‰,E≤—†}-H∑≈Ñı–°†•≈W ‚:lengthi:environment_versionI"1.0;T:dependencies_digest"%¬Ω ∑=‡ÆC€+Û;BÆ€Eu¯p§Ëò§÷WÙ"¬¿ßwW:idI"Ee0df70ae10853d7a90bb4137ec82c3fbfbee04cb4bf6158fbb42749aaa5948b8;F

@@ -1,0 +1,40 @@
+{:uriI"—file://app/assets/libs/jquery.counterup/counterup.jquery.json?type=application/json&id=42b5c5119af9e836e0f5e0361b909ed0a91076d810d24eaa6cefda3e58d1ba0e:ET:load_pathI"app/assets/libs;T:filenameI";app/assets/libs/jquery.counterup/counterup.jquery.json;T:	nameI"&jquery.counterup/counterup.jquery;T:logical_pathI"+jquery.counterup/counterup.jquery.json;T:content_typeI"application/json;T:sourceI"m{
+  "name": "jquery.counterup",
+  "version": "2.1.0",
+  "title": "jquery.counterup",
+  "description": "A lightweight jQuery plugin that counts up to a targeted number when the number becomes visible.",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "counter",
+    "count",
+    "up",
+    "number",
+    "figure",
+    "numeric",
+    "int",
+    "float",
+    "animation"
+  ],
+  "homepage": "https://github.com/ciromattia/jquery.counterup",
+  "author": {
+    "name": "Benjamin Intal",
+    "url": "https://github.com/bfintal/"
+  },
+  "bugs": "https://github.com/ciromattia/jquery.counterup/issues",
+  "licenses": [
+    {
+      "type": "GPL2",
+      "url": "https://raw.github.com/ciromattia/jquery.counterup/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.5",
+    "waypoints": ">=4.0"
+  },
+  "demo": "http://ciromattia.github.io//jquery.counterup/demo/index.html"
+};T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Ifile-digest://app/assets/libs/jquery.counterup/counterup.jquery.json;TTF:charsetI"
+utf-8;F:digest"% s/&}	ÔéÀ¥õ–ƒ{¡Ö¨7]ês`ƒ¤öO”M:lengthim:environment_versionI"1.0;T:dependencies_digest"%‰+¿‡ø×ÅZÍ¥iqÐerö;Iƒ‰œÁÓa–N :idI"E42b5c5119af9e836e0f5e0361b909ed0a91076d810d24eaa6cefda3e58d1ba0e;F

@@ -1,0 +1,61 @@
+{:uriI"�file://app/assets/libs/apexcharts/locales/ko.json?type=application/json&id=2c10f2d088b7e2d0cbc1d5e8bc9da993dbfcf0904833f03ec47c4c6667c7542e:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/ko.json;T:	nameI"apexcharts/locales/ko;T:logical_pathI"apexcharts/locales/ko.json;T:content_typeI"application/json;T:sourceI"�{
+  "name": "ko",
+  "options": {
+    "months": [
+      "1월",
+      "2월",
+      "3월",
+      "4월",
+      "5월",
+      "6월",
+      "7월",
+      "8월",
+      "9월",
+      "10월",
+      "11월",
+      "12월"
+    ],
+    "shortMonths": [
+      "1월",
+      "2월",
+      "3월",
+      "4월",
+      "5월",
+      "6월",
+      "7월",
+      "8월",
+      "9월",
+      "10월",
+      "11월",
+      "12월"
+    ],
+    "days": [
+      "일요일",
+      "월요일",
+      "화요일",
+      "수요일",
+      "목요일",
+      "금요일",
+      "토요일"
+    ],
+    "shortDays": ["일", "월", "화", "수", "목", "금", "토"],
+    "toolbar": {
+      "exportToSVG": "SVG 다운로드",
+      "exportToPNG": "PNG 다운로드",
+      "exportToCSV": "CSV 다운로드",
+      "menu": "메뉴",
+      "selection": "선택",
+      "selectionZoom": "선택영역 확대",
+      "zoomIn": "확대",
+      "zoomOut": "축소",
+      "pan": "패닝",
+      "reset": "원래대로"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/ko.json;TTF:charsetI"
+utf-8;F:digest"%^��^Q",��cp$r;��A/���6�r�[i�:lengthi�:environment_versionI"1.0;T:dependencies_digest"%l��\b
+xl0��ca�{v�PG��1Ox�Ik:idI"E2c10f2d088b7e2d0cbc1d5e8bc9da993dbfcf0904833f03ec47c4c6667c7542e;F

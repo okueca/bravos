@@ -1,0 +1,61 @@
+{:uriI"�file://app/assets/libs/apexcharts/locales/zh-cn.json?type=application/json&id=581718a7ccb97186c8ccf94163174d1960fe6bd8519c090d26ae8d913e307638:ET:load_pathI"app/assets/libs;T:filenameI"2app/assets/libs/apexcharts/locales/zh-cn.json;T:	nameI"apexcharts/locales/zh-cn;T:logical_pathI""apexcharts/locales/zh-cn.json;T:content_typeI"application/json;T:sourceI"{
+  "name": "zh-cn",
+  "options": {
+    "months": [
+      "一月",
+      "二月",
+      "三月",
+      "四月",
+      "五月",
+      "六月",
+      "七月",
+      "八月",
+      "九月",
+      "十月",
+      "十一月",
+      "十二月"
+    ],
+    "shortMonths": [
+      "一月",
+      "二月",
+      "三月",
+      "四月",
+      "五月",
+      "六月",
+      "七月",
+      "八月",
+      "九月",
+      "十月",
+      "十一月",
+      "十二月"
+    ],
+    "days": [
+      "星期天",
+      "星期一",
+      "星期二",
+      "星期三",
+      "星期四",
+      "星期五",
+      "星期六"
+    ],
+    "shortDays": ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
+    "toolbar": {
+      "exportToSVG": "下载 SVG",
+      "exportToPNG": "下载 PNG",
+      "exportToCSV": "下载 CSV",
+      "menu": "菜单",
+      "selection": "选择",
+      "selectionZoom": "选择缩放",
+      "zoomIn": "放大",
+      "zoomOut": "缩小",
+      "pan": "平移",
+      "reset": "重置缩放"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"@file-digest://app/assets/libs/apexcharts/locales/zh-cn.json;TTF:charsetI"
+utf-8;F:digest"%�>?��t�6X BWk �#�
+.�t>=8�:lengthi:environment_versionI"1.0;T:dependencies_digest"%UtVb[oW��N�d+�Q9�ˣ/P�J`��-|5v:idI"E581718a7ccb97186c8ccf94163174d1960fe6bd8519c090d26ae8d913e307638;F

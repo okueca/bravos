@@ -1,0 +1,60 @@
+{:uriI"�file://app/assets/libs/apexcharts/locales/ua.json?type=application/json&id=8dabd9e58eff257a302c0d327187da1f775078d3a748f294f50bf19491fe118c:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/ua.json;T:	nameI"apexcharts/locales/ua;T:logical_pathI"apexcharts/locales/ua.json;T:content_typeI"application/json;T:sourceI"�{
+  "name": "ua",
+  "options": {
+    "months": [
+      "Січень",
+      "Лютий",
+      "Березень",
+      "Квітень",
+      "Травень",
+      "Червень",
+      "Липень",
+      "Серпень",
+      "Вересень",
+      "Жовтень",
+      "Листопад",
+      "Грудень"
+    ],
+    "shortMonths": [
+      "Січ",
+      "Лют",
+      "Бер",
+      "Кві",
+      "Тра",
+      "Чер",
+      "Лип",
+      "Сер",
+      "Вер",
+      "Жов",
+      "Лис",
+      "Гру"
+    ],
+    "days": [
+      "Неділя",
+      "Понеділок",
+      "Вівторок",
+      "Середа",
+      "Четвер",
+      "П'ятниця",
+      "Субота"
+    ],
+    "shortDays": ["Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+    "toolbar": {
+      "exportToSVG": "Зберегти SVG",
+      "exportToPNG": "Зберегти PNG",
+      "exportToCSV": "Зберегти CSV",
+      "menu": "Меню",
+      "selection": "Вибір",
+      "selectionZoom": "Вибір із збільшенням",
+      "zoomIn": "Збільшити",
+      "zoomOut": "Зменшити",
+      "pan": "Переміщення",
+      "reset": "Скинути збільшення"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/ua.json;TTF:charsetI"
+utf-8;F:digest"%G7(��D>�>�A>�˔�ςt�ۤ$Ҵ��:lengthi�:environment_versionI"1.0;T:dependencies_digest"%o��v��đav�+3D�!%��LI7K���&�9:idI"E8dabd9e58eff257a302c0d327187da1f775078d3a748f294f50bf19491fe118c;F

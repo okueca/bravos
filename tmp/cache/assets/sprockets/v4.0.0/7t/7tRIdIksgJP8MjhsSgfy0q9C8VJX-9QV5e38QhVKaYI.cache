@@ -1,0 +1,60 @@
+{:uriI"ãfile://app/assets/libs/apexcharts/locales/lt.json?type=application/json&id=c49fcdc219cf0452e63d41d6322f2dc0e4aff128aef9f6e20af84fba3992d7e0:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/lt.json;T:	nameI"apexcharts/locales/lt;T:logical_pathI"apexcharts/locales/lt.json;T:content_typeI"application/json;T:sourceI"({
+  "name": "lt",
+  "options": {
+    "months": [
+      "Sausis",
+      "Vasaris",
+      "Kovas",
+      "Balandis",
+      "Gegu≈æƒó",
+      "Bir≈æelis",
+      "Liepa",
+      "Rugpj≈´tis",
+      "Rugsƒójis",
+      "Spalis",
+      "Lapkritis",
+      "Gruodis"
+    ],
+    "shortMonths": [
+      "Sau",
+      "Vas",
+      "Kov",
+      "Bal",
+      "Geg",
+      "Bir",
+      "Lie",
+      "Rgp",
+      "Rgs",
+      "Spl",
+      "Lap",
+      "Grd"
+    ],
+    "days": [
+      "Sekmadienis",
+      "Pirmadienis",
+      "Antradienis",
+      "Treƒçiadienis",
+      "Ketvirtadienis",
+      "Penktadienis",
+      "≈†e≈°tadienis"
+    ],
+    "shortDays": ["Sk", "Per", "An", "Tr", "Kt", "Pn", "≈†t"],
+    "toolbar": {
+      "exportToSVG": "Atsisi≈≥sti SVG",
+      "exportToPNG": "Atsisi≈≥sti PNG",
+      "exportToCSV": "Atsisi≈≥sti CSV",
+      "menu": "Menu",
+      "selection": "Pasirinkimas",
+      "selectionZoom": "Zoom: Pasirinkimas",
+      "zoomIn": "Zoom: Priartinti",
+      "zoomOut": "Zoom: Atitolinti",
+      "pan": "Perkƒólimas",
+      "reset": "Atstatyti"
+    }
+  }
+}
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/lt.json;TTF:charsetI"
+utf-8;F:digest"%‡z"ï[À¢»ö„GF~KΩötù£˘"Â,©iá´:lengthi(:environment_versionI"1.0;T:dependencies_digest"%kX_a£MV-|p:üT…B<π®¶K(d_¯“fä∏:idI"Ec49fcdc219cf0452e63d41d6322f2dc0e4aff128aef9f6e20af84fba3992d7e0;F
