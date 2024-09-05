@@ -1,0 +1,24 @@
+
+
+    <div class="row p-1">
+    
+        <div class="col-12">
+            <table class="table table-bordered table-centered mb-0">
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <%= f.label :name, "Nome" %>
+                            <%= f.text_field :name, :class => 'form-control' %>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <%= f.label :role, "Função" %>
+                            <%= f.select :role, Member.roles.keys.map{|key, value| [key, key]} , {}, :class => 'form-control' %>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+    </div>

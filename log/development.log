@@ -14915,3 +14915,1796 @@ Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 00:55:12 +010
   
 ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
   
+Started GET "/teams" for ::1 at 2024-09-04 21:43:30 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (4.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TeamsController#index as HTML
+Started GET "/teams" for ::1 at 2024-09-04 21:43:31 +0100
+Processing by TeamsController#index as HTML
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/index.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (3.8ms)[0m  [1m[34mSELECT "teams".* FROM "teams"[0m
+  [1m[36mTeam Load (3.2ms)[0m  [1m[34mSELECT "teams".* FROM "teams"[0m
+  ↳ app/views/teams/index.html.erb:6
+  ↳ app/views/teams/index.html.erb:6
+  Rendered teams/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 2020)
+  Rendered teams/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 1813)
+  Rendered layout layouts/application.html.erb (Duration: 61.3ms | Allocations: 13559)
+Completed 200 OK in 587ms (Views: 75.6ms | ActiveRecord: 77.1ms | Allocations: 71770)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 83.1ms | Allocations: 17673)
+Completed 200 OK in 390ms (Views: 106.3ms | ActiveRecord: 55.6ms | Allocations: 62247)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-04 21:43:32 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 21:43:32 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-04 21:43:33 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-04 21:43:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 21:43:34 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 26.5ms | Allocations: 2909)
+  Rendered teams/new.html.erb within layouts/application (Duration: 31.0ms | Allocations: 3238)
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 4376)
+Completed 200 OK in 153ms (Views: 44.2ms | ActiveRecord: 24.6ms | Allocations: 22543)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-04 21:43:35 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 21:43:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-04 21:43:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-04 21:43:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:12:22 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 10.9ms | Allocations: 1219)
+  Rendered teams/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 1563)
+  Rendered layout layouts/application.html.erb (Duration: 50.2ms | Allocations: 9655)
+Completed 200 OK in 243ms (Views: 56.7ms | ActiveRecord: 20.8ms | Allocations: 25462)
+
+
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:12:23 +0100
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-04 22:12:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-04 22:12:24 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-04 22:12:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:16:39 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 6.0ms | Allocations: 1481)
+  Rendered teams/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1825)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 1916)
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 32.4ms | Allocations: 15343)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: team, class:"needs-validation" ) do |form| %>
+  <% if team.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(team.errors.count, "error") %> prohibited this team from being saved:</h2>
+
+      <ul>
+        <% team.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name, class: "form-control" %>
+  </div>
+
+  <div>
+    <%= form.label :image, style: "display: block" %>
+    <%= form.text_area :image, class: "form-control" %>
+  </div>
+
+  <div>
+    <%= form.submit, class:"btn btn-primary" %>
+  </div>
+<% end %>
+
+):
+1:    <%= form_with(model: team, class:"needs-validation" ) do |form| %>
+2:      <% if team.errors.any? %>
+3:        <div style="color: red">
+4:          <h2><%= pluralize(team.errors.count, "error") %> prohibited this team from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% team.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div>
+15:        <%= form.label :name, style: "display: block" %>
+16:        <%= form.text_field :name, class: "form-control" %>
+17:      </div>
+18:    
+19:      <div>
+20:        <%= form.label :image, style: "display: block" %>
+21:        <%= form.text_area :image, class: "form-control" %>
+22:      </div>
+23:    
+24:      <div>
+25:        <%= form.submit, class:"btn btn-primary" %>
+26:      </div>
+27:    <% end %>
+  
+app/views/teams/_form.html.erb:25: syntax error, unexpected label, expecting '='
+app/views/teams/new.html.erb:5
+Started GET "/teams/new" for ::1 at 2024-09-04 22:17:28 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 5.1ms | Allocations: 1455)
+  Rendered teams/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1781)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 1872)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 24.2ms | Allocations: 15263)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: team, class:"needs-validation" ) do |form| %>
+  <% if team.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(team.errors.count, "error") %> prohibited this team from being saved:</h2>
+
+      <ul>
+        <% team.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name, class: "form-control" %>
+  </div>
+
+  <div>
+    <%= form.label :image, style: "display: block" %>
+    <%= form.text_area :image, class: "form-control" %>
+  </div>
+
+  <div>
+    <%= form.submit, class:"btn btn-primary" %>
+  </div>
+<% end %>
+
+):
+1:    <%= form_with(model: team, class:"needs-validation" ) do |form| %>
+2:      <% if team.errors.any? %>
+3:        <div style="color: red">
+4:          <h2><%= pluralize(team.errors.count, "error") %> prohibited this team from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% team.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div>
+15:        <%= form.label :name, style: "display: block" %>
+16:        <%= form.text_field :name, class: "form-control" %>
+17:      </div>
+18:    
+19:      <div>
+20:        <%= form.label :image, style: "display: block" %>
+21:        <%= form.text_area :image, class: "form-control" %>
+22:      </div>
+23:    
+24:      <div>
+25:        <%= form.submit, class:"btn btn-primary" %>
+26:      </div>
+27:    <% end %>
+  
+app/views/teams/_form.html.erb:25: syntax error, unexpected label, expecting '='
+app/views/teams/new.html.erb:3
+Started GET "/teams/new" for ::1 at 2024-09-04 22:18:10 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 14.6ms | Allocations: 1427)
+  Rendered teams/new.html.erb within layouts/application (Duration: 18.2ms | Allocations: 1773)
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 9866)
+Completed 200 OK in 205ms (Views: 76.6ms | ActiveRecord: 29.8ms | Allocations: 23251)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-04 22:18:11 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:18:11 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-04 22:18:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-04 22:18:13 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:20:47 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 8.8ms | Allocations: 1428)
+  Rendered teams/new.html.erb within layouts/application (Duration: 12.9ms | Allocations: 2028)
+  Rendered layout layouts/application.html.erb (Duration: 50.8ms | Allocations: 10120)
+Completed 200 OK in 168ms (Views: 58.2ms | ActiveRecord: 23.8ms | Allocations: 23499)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-04 22:20:48 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:20:48 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-04 22:20:49 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-04 22:20:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:21:44 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 13.5ms | Allocations: 1427)
+  Rendered teams/new.html.erb within layouts/application (Duration: 17.9ms | Allocations: 1817)
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 9909)
+Completed 200 OK in 194ms (Views: 66.6ms | ActiveRecord: 32.3ms | Allocations: 23309)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-04 22:21:45 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:21:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-04 22:21:46 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-04 22:21:46 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:21:53 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 8.7ms | Allocations: 1427)
+  Rendered teams/new.html.erb within layouts/application (Duration: 14.3ms | Allocations: 1816)
+  Rendered layout layouts/application.html.erb (Duration: 50.6ms | Allocations: 9908)
+Completed 200 OK in 167ms (Views: 58.6ms | ActiveRecord: 30.3ms | Allocations: 23296)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-04 22:21:54 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:21:54 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-04 22:21:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-04 22:21:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:22:43 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 9.1ms | Allocations: 1428)
+  Rendered teams/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 1808)
+  Rendered layout layouts/application.html.erb (Duration: 55.3ms | Allocations: 9900)
+Completed 200 OK in 176ms (Views: 62.6ms | ActiveRecord: 24.4ms | Allocations: 23277)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:22:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:23:23 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 26.0ms | Allocations: 1427)
+  Rendered teams/new.html.erb within layouts/application (Duration: 36.8ms | Allocations: 1815)
+  Rendered layout layouts/application.html.erb (Duration: 76.6ms | Allocations: 9908)
+Completed 200 OK in 276ms (Views: 86.6ms | ActiveRecord: 28.8ms | Allocations: 23265)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:23:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:24:27 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 22.8ms | Allocations: 1436)
+  Rendered teams/new.html.erb within layouts/application (Duration: 27.0ms | Allocations: 1818)
+  Rendered layout layouts/application.html.erb (Duration: 73.0ms | Allocations: 9910)
+Completed 200 OK in 218ms (Views: 82.4ms | ActiveRecord: 31.3ms | Allocations: 23258)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:24:30 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:24:48 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 8.9ms | Allocations: 1451)
+  Rendered teams/new.html.erb within layouts/application (Duration: 12.7ms | Allocations: 1833)
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 9926)
+Completed 200 OK in 131ms (Views: 44.3ms | ActiveRecord: 19.4ms | Allocations: 23310)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:24:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:27:57 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 9.0ms | Allocations: 1374)
+  Rendered teams/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 1756)
+  Rendered layout layouts/application.html.erb (Duration: 48.3ms | Allocations: 9849)
+Completed 200 OK in 143ms (Views: 54.4ms | ActiveRecord: 20.8ms | Allocations: 23185)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:27:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:28:12 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 9.1ms | Allocations: 1374)
+  Rendered teams/new.html.erb within layouts/application (Duration: 12.6ms | Allocations: 1757)
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 9850)
+Completed 200 OK in 134ms (Views: 45.7ms | ActiveRecord: 18.9ms | Allocations: 23216)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:28:14 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:28:41 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 7.8ms | Allocations: 1373)
+  Rendered teams/new.html.erb within layouts/application (Duration: 11.6ms | Allocations: 1753)
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 9847)
+Completed 200 OK in 147ms (Views: 45.2ms | ActiveRecord: 24.1ms | Allocations: 23210)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:28:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:28:56 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 7.8ms | Allocations: 1373)
+  Rendered teams/new.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1753)
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 9846)
+Completed 200 OK in 138ms (Views: 47.9ms | ActiveRecord: 19.4ms | Allocations: 23235)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:28:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/feather.woff?t=1525787366991" for ::1 at 2024-09-04 22:29:04 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/feather.woff"):
+  
+Started GET "/fonts/feather.ttf?t=1525787366991" for ::1 at 2024-09-04 22:29:04 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/feather.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 22:29:13 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 10.8ms | Allocations: 1370)
+  Rendered teams/new.html.erb within layouts/application (Duration: 15.5ms | Allocations: 1759)
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 9852)
+Completed 200 OK in 143ms (Views: 50.6ms | ActiveRecord: 20.1ms | Allocations: 23231)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 22:29:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/feather.woff?t=1525787366991" for ::1 at 2024-09-04 22:29:26 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/feather.woff"):
+  
+Started GET "/fonts/feather.ttf?t=1525787366991" for ::1 at 2024-09-04 22:29:27 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/feather.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:20:52 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 106.9ms | Allocations: 11091)
+  Rendered teams/new.html.erb within layouts/application (Duration: 111.7ms | Allocations: 11585)
+  Rendered layout layouts/application.html.erb (Duration: 112.8ms | Allocations: 11692)
+Completed 500 Internal Server Error in 648ms (ActiveRecord: 64.9ms | Allocations: 80905)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `members_form' for #<ActionView::Base:0x00000000010720>
+Did you mean?  members_url):
+    23: 
+    24:   <template data-nested-form-target="template">
+    25:     <%= form.fields_for :members, Member.new, child_index: 'NEW_RECORD' do |members| %>
+    26:       <%= render partial: "member_fields", locals: { f: members_form }%>
+    27:     <% end %>
+    28:   </template>
+    29: 
+  
+app/views/teams/_form.html.erb:26
+app/views/teams/_form.html.erb:25
+app/views/teams/_form.html.erb:1
+app/views/teams/new.html.erb:8
+Started GET "/teams/new" for ::1 at 2024-09-04 23:21:31 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 4.4ms | Allocations: 451)
+  Rendered teams/_member_fields.html.erb (Duration: 5.3ms | Allocations: 1373)
+  Rendered teams/_form.html.erb (Duration: 76.6ms | Allocations: 6247)
+  Rendered teams/new.html.erb within layouts/application (Duration: 81.3ms | Allocations: 6639)
+  Rendered layout layouts/application.html.erb (Duration: 125.3ms | Allocations: 14951)
+Completed 200 OK in 300ms (Views: 124.3ms | ActiveRecord: 36.9ms | Allocations: 29555)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-04 23:21:32 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:21:32 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-04 23:21:33 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-04 23:21:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  [1m[35m (9.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4939930189391793435)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.9ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+Migrating to AddTeamReferenceToMember (20240904222511)
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (16.4ms)[0m  [1m[35mALTER TABLE "members" ADD "team_id" bigint NOT NULL[0m
+  [1m[35m (14.3ms)[0m  [1m[35mCREATE INDEX "index_members_on_team_id" ON "members" ("team_id")[0m
+  [1m[35m (16.9ms)[0m  [1m[35mALTER TABLE "members" ADD CONSTRAINT "fk_rails_e330ef0ccc"
+FOREIGN KEY ("team_id")
+  REFERENCES "teams" ("id")
+[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240904222511') RETURNING "version"[0m
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4939930189391793435)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/teams/new" for ::1 at 2024-09-04 23:27:05 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (Duration: 133.6ms | Allocations: 30376)
+  Rendered teams/new.html.erb within layouts/application (Duration: 136.7ms | Allocations: 30870)
+  Rendered layout layouts/application.html.erb (Duration: 137.7ms | Allocations: 30977)
+Completed 500 Internal Server Error in 594ms (ActiveRecord: 54.6ms | Allocations: 101001)
+
+
+  
+ActionView::Template::Error (Missing model class member for the Team#members association.):
+    22:   </div>
+    23: 
+    24:   <template data-nested-form-target="template">
+    25:     <%= form.fields_for :members, Member.new, child_index: 'NEW_RECORD' do |members_form| %>
+    26:       <%= render partial: "member_fields", locals: { f: members_form }%>
+    27:     <% end %>
+    28:   </template>
+  
+app/views/teams/_form.html.erb:25
+app/views/teams/_form.html.erb:1
+app/views/teams/new.html.erb:8
+Started GET "/teams/new" for ::1 at 2024-09-04 23:27:32 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 4.4ms | Allocations: 437)
+  Rendered teams/_form.html.erb (Duration: 78.4ms | Allocations: 7273)
+  Rendered teams/new.html.erb within layouts/application (Duration: 82.0ms | Allocations: 7663)
+  Rendered layout layouts/application.html.erb (Duration: 126.5ms | Allocations: 15972)
+Completed 200 OK in 265ms (Views: 119.1ms | ActiveRecord: 39.9ms | Allocations: 31460)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:27:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:39:57 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.7ms | Allocations: 409)
+  Rendered teams/_form.html.erb (Duration: 45.5ms | Allocations: 6856)
+  Rendered teams/new.html.erb within layouts/application (Duration: 48.4ms | Allocations: 7245)
+  Rendered layout layouts/application.html.erb (Duration: 78.5ms | Allocations: 15378)
+Completed 200 OK in 304ms (Views: 84.7ms | ActiveRecord: 31.6ms | Allocations: 33174)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:39:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:40:24 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 1.8ms | Allocations: 197)
+  Rendered teams/_form.html.erb (Duration: 11.0ms | Allocations: 893)
+  Rendered teams/new.html.erb within layouts/application (Duration: 12.3ms | Allocations: 979)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 2094)
+Completed 200 OK in 47ms (Views: 24.7ms | ActiveRecord: 1.6ms | Allocations: 4121)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:40:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:40:48 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.9ms | Allocations: 409)
+  Rendered teams/_form.html.erb (Duration: 58.6ms | Allocations: 7121)
+  Rendered teams/new.html.erb within layouts/application (Duration: 68.5ms | Allocations: 7508)
+  Rendered layout layouts/application.html.erb (Duration: 99.8ms | Allocations: 15641)
+Completed 200 OK in 261ms (Views: 94.9ms | ActiveRecord: 45.5ms | Allocations: 31106)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:40:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:41:03 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.4ms | Allocations: 409)
+  Rendered teams/_form.html.erb (Duration: 48.2ms | Allocations: 7153)
+  Rendered teams/new.html.erb within layouts/application (Duration: 51.5ms | Allocations: 7538)
+  Rendered layout layouts/application.html.erb (Duration: 95.9ms | Allocations: 15659)
+Completed 200 OK in 231ms (Views: 93.3ms | ActiveRecord: 35.3ms | Allocations: 31025)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:41:05 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:43:26 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 4.2ms | Allocations: 409)
+  Rendered teams/_form.html.erb (Duration: 64.4ms | Allocations: 7120)
+  Rendered teams/new.html.erb within layouts/application (Duration: 68.2ms | Allocations: 7505)
+  Rendered layout layouts/application.html.erb (Duration: 99.1ms | Allocations: 15637)
+Completed 200 OK in 219ms (Views: 94.2ms | ActiveRecord: 35.0ms | Allocations: 31047)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:43:28 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:45:48 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 4.0ms | Allocations: 409)
+  Rendered teams/_form.html.erb (Duration: 65.8ms | Allocations: 7119)
+  Rendered teams/new.html.erb within layouts/application (Duration: 69.8ms | Allocations: 7508)
+  Rendered layout layouts/application.html.erb (Duration: 110.2ms | Allocations: 15641)
+Completed 200 OK in 233ms (Views: 105.5ms | ActiveRecord: 36.5ms | Allocations: 31021)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:45:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:46:17 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.5ms | Allocations: 409)
+  Rendered teams/_form.html.erb (Duration: 59.2ms | Allocations: 7155)
+  Rendered teams/new.html.erb within layouts/application (Duration: 62.6ms | Allocations: 7540)
+  Rendered layout layouts/application.html.erb (Duration: 90.6ms | Allocations: 15672)
+Completed 200 OK in 214ms (Views: 83.5ms | ActiveRecord: 37.6ms | Allocations: 31034)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:46:19 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:46:41 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.7ms | Allocations: 420)
+  Rendered teams/_form.html.erb (Duration: 49.5ms | Allocations: 7130)
+  Rendered teams/new.html.erb within layouts/application (Duration: 53.0ms | Allocations: 7515)
+  Rendered layout layouts/application.html.erb (Duration: 82.9ms | Allocations: 15647)
+Completed 200 OK in 200ms (Views: 81.4ms | ActiveRecord: 32.8ms | Allocations: 31081)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:46:42 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:50:43 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.5ms | Allocations: 419)
+  Rendered teams/_form.html.erb (Duration: 65.4ms | Allocations: 7128)
+  Rendered teams/new.html.erb within layouts/application (Duration: 78.9ms | Allocations: 7513)
+  Rendered layout layouts/application.html.erb (Duration: 110.6ms | Allocations: 15646)
+Completed 200 OK in 248ms (Views: 104.2ms | ActiveRecord: 39.0ms | Allocations: 31013)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:50:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:51:14 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.2ms | Allocations: 419)
+  Rendered teams/_form.html.erb (Duration: 51.1ms | Allocations: 7128)
+  Rendered teams/new.html.erb within layouts/application (Duration: 55.4ms | Allocations: 7517)
+  Rendered layout layouts/application.html.erb (Duration: 84.3ms | Allocations: 15650)
+Completed 200 OK in 200ms (Views: 83.6ms | ActiveRecord: 30.6ms | Allocations: 31005)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:51:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:51:25 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.7ms | Allocations: 419)
+  Rendered teams/_form.html.erb (Duration: 58.7ms | Allocations: 7165)
+  Rendered teams/new.html.erb within layouts/application (Duration: 62.7ms | Allocations: 7550)
+  Rendered layout layouts/application.html.erb (Duration: 131.0ms | Allocations: 15683)
+Completed 200 OK in 257ms (Views: 127.0ms | ActiveRecord: 34.7ms | Allocations: 31031)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:51:27 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:51:40 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.8ms | Allocations: 419)
+  Rendered teams/_form.html.erb (Duration: 51.8ms | Allocations: 7168)
+  Rendered teams/new.html.erb within layouts/application (Duration: 55.0ms | Allocations: 7553)
+  Rendered layout layouts/application.html.erb (Duration: 83.0ms | Allocations: 15686)
+Completed 200 OK in 208ms (Views: 80.6ms | ActiveRecord: 36.1ms | Allocations: 31109)
+
+
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:51:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:51:52 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 5.3ms | Allocations: 419)
+  Rendered teams/_form.html.erb (Duration: 74.4ms | Allocations: 7130)
+  Rendered teams/new.html.erb within layouts/application (Duration: 81.8ms | Allocations: 7520)
+  Rendered layout layouts/application.html.erb (Duration: 119.1ms | Allocations: 15654)
+Completed 200 OK in 242ms (Views: 115.7ms | ActiveRecord: 33.7ms | Allocations: 31042)
+
+
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:51:53 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:52:07 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.8ms | Allocations: 421)
+  Rendered teams/_form.html.erb (Duration: 76.2ms | Allocations: 7190)
+  Rendered teams/new.html.erb within layouts/application (Duration: 79.6ms | Allocations: 7575)
+  Rendered layout layouts/application.html.erb (Duration: 107.3ms | Allocations: 15708)
+Completed 200 OK in 223ms (Views: 104.8ms | ActiveRecord: 31.0ms | Allocations: 31124)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:52:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-04 23:52:21 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 10.6ms | Allocations: 420)
+  Rendered teams/_form.html.erb (Duration: 64.1ms | Allocations: 7169)
+  Rendered teams/new.html.erb within layouts/application (Duration: 67.0ms | Allocations: 7558)
+  Rendered layout layouts/application.html.erb (Duration: 91.9ms | Allocations: 15691)
+Completed 200 OK in 225ms (Views: 86.2ms | ActiveRecord: 39.4ms | Allocations: 31099)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-04 23:52:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:00:40 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.8ms | Allocations: 438)
+  Rendered teams/_form.html.erb (Duration: 45.1ms | Allocations: 6887)
+  Rendered teams/new.html.erb within layouts/application (Duration: 48.9ms | Allocations: 7272)
+  Rendered layout layouts/application.html.erb (Duration: 83.8ms | Allocations: 15406)
+Completed 200 OK in 274ms (Views: 89.9ms | ActiveRecord: 18.5ms | Allocations: 33233)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:00:42 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:00:56 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 4.0ms | Allocations: 436)
+  Rendered teams/_form.html.erb (Duration: 69.9ms | Allocations: 7182)
+  Rendered teams/new.html.erb within layouts/application (Duration: 73.8ms | Allocations: 7571)
+  Rendered layout layouts/application.html.erb (Duration: 106.4ms | Allocations: 15704)
+Completed 200 OK in 288ms (Views: 98.6ms | ActiveRecord: 61.7ms | Allocations: 31109)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:00:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:03:39 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.4ms | Allocations: 308)
+  Rendered teams/_form.html.erb (Duration: 52.3ms | Allocations: 7015)
+  Rendered teams/new.html.erb within layouts/application (Duration: 55.0ms | Allocations: 7400)
+  Rendered layout layouts/application.html.erb (Duration: 86.7ms | Allocations: 15532)
+Completed 200 OK in 218ms (Views: 83.5ms | ActiveRecord: 32.5ms | Allocations: 30871)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:03:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:04:13 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.1ms | Allocations: 306)
+  Rendered teams/_form.html.erb (Duration: 55.1ms | Allocations: 6930)
+  Rendered teams/new.html.erb within layouts/application (Duration: 58.3ms | Allocations: 7315)
+  Rendered layout layouts/application.html.erb (Duration: 92.5ms | Allocations: 15448)
+Completed 200 OK in 217ms (Views: 88.8ms | ActiveRecord: 39.1ms | Allocations: 30858)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:04:14 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4939930189391793435)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.8ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+Migrating to AddRoleToMember (20240904230540)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.7ms)[0m  [1m[35mALTER TABLE "members" ADD "role" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240904230540') RETURNING "version"[0m
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(4939930189391793435)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/teams/new" for ::1 at 2024-09-05 00:08:14 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.4ms | Allocations: 338)
+  Rendered teams/_form.html.erb (Duration: 104.6ms | Allocations: 24811)
+  Rendered teams/new.html.erb within layouts/application (Duration: 108.2ms | Allocations: 25323)
+  Rendered layout layouts/application.html.erb (Duration: 135.8ms | Allocations: 33669)
+Completed 200 OK in 559ms (Views: 140.4ms | ActiveRecord: 56.0ms | Allocations: 103526)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:08:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:08:54 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 4.4ms | Allocations: 314)
+  Rendered teams/_form.html.erb (Duration: 55.4ms | Allocations: 7255)
+  Rendered teams/new.html.erb within layouts/application (Duration: 58.6ms | Allocations: 7642)
+  Rendered layout layouts/application.html.erb (Duration: 86.6ms | Allocations: 15775)
+Completed 200 OK in 217ms (Views: 81.5ms | ActiveRecord: 37.7ms | Allocations: 31189)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:08:57 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:11:06 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.2ms | Allocations: 311)
+  Rendered teams/_form.html.erb (Duration: 55.3ms | Allocations: 7251)
+  Rendered teams/new.html.erb within layouts/application (Duration: 59.1ms | Allocations: 7636)
+  Rendered layout layouts/application.html.erb (Duration: 91.4ms | Allocations: 15768)
+Completed 200 OK in 232ms (Views: 87.0ms | ActiveRecord: 37.1ms | Allocations: 31196)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:11:08 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:12:30 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 1.2ms | Allocations: 109)
+  Rendered teams/_form.html.erb (Duration: 8.5ms | Allocations: 751)
+  Rendered teams/new.html.erb within layouts/application (Duration: 10.0ms | Allocations: 837)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 1952)
+Completed 200 OK in 41ms (Views: 23.2ms | ActiveRecord: 1.4ms | Allocations: 3972)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:12:32 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:13:47 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.7ms | Allocations: 309)
+  Rendered teams/_form.html.erb (Duration: 53.8ms | Allocations: 7250)
+  Rendered teams/new.html.erb within layouts/application (Duration: 57.4ms | Allocations: 7635)
+  Rendered layout layouts/application.html.erb (Duration: 84.2ms | Allocations: 15767)
+Completed 200 OK in 209ms (Views: 81.3ms | ActiveRecord: 33.2ms | Allocations: 31181)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:13:48 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:14:05 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.6ms | Allocations: 309)
+  Rendered teams/_form.html.erb (Duration: 57.6ms | Allocations: 7283)
+  Rendered teams/new.html.erb within layouts/application (Duration: 60.9ms | Allocations: 7668)
+  Rendered layout layouts/application.html.erb (Duration: 96.0ms | Allocations: 15789)
+Completed 200 OK in 211ms (Views: 91.9ms | ActiveRecord: 35.9ms | Allocations: 31138)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:14:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:15:44 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.4ms | Allocations: 310)
+  Rendered teams/_form.html.erb (Duration: 68.7ms | Allocations: 7250)
+  Rendered teams/new.html.erb within layouts/application (Duration: 73.2ms | Allocations: 7635)
+  Rendered layout layouts/application.html.erb (Duration: 112.4ms | Allocations: 15767)
+Completed 200 OK in 243ms (Views: 107.7ms | ActiveRecord: 41.3ms | Allocations: 31202)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:15:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:16:04 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.6ms | Allocations: 310)
+  Rendered teams/_form.html.erb (Duration: 69.9ms | Allocations: 7286)
+  Rendered teams/new.html.erb within layouts/application (Duration: 73.7ms | Allocations: 7671)
+  Rendered layout layouts/application.html.erb (Duration: 109.0ms | Allocations: 15803)
+Completed 200 OK in 245ms (Views: 103.9ms | ActiveRecord: 40.7ms | Allocations: 31165)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:16:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:16:17 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.3ms | Allocations: 310)
+  Rendered teams/_form.html.erb (Duration: 55.6ms | Allocations: 7247)
+  Rendered teams/new.html.erb within layouts/application (Duration: 58.5ms | Allocations: 7632)
+  Rendered layout layouts/application.html.erb (Duration: 89.6ms | Allocations: 15764)
+Completed 200 OK in 207ms (Views: 86.1ms | ActiveRecord: 33.4ms | Allocations: 31139)
+
+
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:16:18 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:17:06 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.3ms | Allocations: 320)
+  Rendered teams/_form.html.erb (Duration: 61.5ms | Allocations: 7260)
+  Rendered teams/new.html.erb within layouts/application (Duration: 66.0ms | Allocations: 7645)
+  Rendered layout layouts/application.html.erb (Duration: 99.8ms | Allocations: 15777)
+Completed 200 OK in 221ms (Views: 94.3ms | ActiveRecord: 34.4ms | Allocations: 31182)
+
+
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:17:07 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 00:20:09 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.5ms | Allocations: 316)
+  Rendered teams/_form.html.erb (Duration: 62.9ms | Allocations: 7264)
+  Rendered teams/new.html.erb within layouts/application (Duration: 66.8ms | Allocations: 7649)
+  Rendered layout layouts/application.html.erb (Duration: 113.8ms | Allocations: 15782)
+Completed 200 OK in 260ms (Views: 108.5ms | ActiveRecord: 37.1ms | Allocations: 31162)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 00:20:10 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/users/sign_in" for ::1 at 2024-09-05 09:57:22 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 125ms (ActiveRecord: 22.9ms | Allocations: 5317)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:57:22 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.0ms | Allocations: 486)
+Completed 200 OK in 18ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 1867)
+
+
+Started GET "/teams/new" for ::1 at 2024-09-05 10:00:07 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 1.2ms | Allocations: 109)
+  Rendered teams/_form.html.erb (Duration: 10.5ms | Allocations: 822)
+  Rendered teams/new.html.erb within layouts/application (Duration: 13.2ms | Allocations: 913)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 2062)
+Completed 200 OK in 53ms (Views: 30.4ms | ActiveRecord: 1.3ms | Allocations: 4193)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:00:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-05 10:00:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-05 10:00:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-05 10:00:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:00:20 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 0.6ms | Allocations: 109)
+  Rendered teams/_form.html.erb (Duration: 7.2ms | Allocations: 709)
+  Rendered teams/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 795)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 1910)
+Completed 200 OK in 37ms (Views: 16.5ms | ActiveRecord: 1.2ms | Allocations: 3794)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-05 10:00:21 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:00:21 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-05 10:00:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-05 10:00:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:03:22 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.2ms | Allocations: 316)
+  Rendered teams/_form.html.erb (Duration: 56.1ms | Allocations: 7262)
+  Rendered teams/new.html.erb within layouts/application (Duration: 59.6ms | Allocations: 7647)
+  Rendered layout layouts/application.html.erb (Duration: 89.5ms | Allocations: 15779)
+Completed 200 OK in 222ms (Views: 86.6ms | ActiveRecord: 49.3ms | Allocations: 31354)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-05 10:03:23 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:03:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-05 10:03:24 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-05 10:03:24 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:03:55 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.5ms | Allocations: 316)
+  Rendered teams/_form.html.erb (Duration: 54.1ms | Allocations: 7263)
+  Rendered teams/new.html.erb within layouts/application (Duration: 57.1ms | Allocations: 7648)
+  Rendered layout layouts/application.html.erb (Duration: 86.6ms | Allocations: 15780)
+Completed 200 OK in 207ms (Views: 84.6ms | ActiveRecord: 36.5ms | Allocations: 31211)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-05 10:03:56 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:03:56 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-05 10:03:57 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-05 10:03:57 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:04:07 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.1ms | Allocations: 316)
+  Rendered teams/_form.html.erb (Duration: 65.8ms | Allocations: 7305)
+  Rendered teams/new.html.erb within layouts/application (Duration: 69.8ms | Allocations: 7690)
+  Rendered layout layouts/application.html.erb (Duration: 105.1ms | Allocations: 15822)
+Completed 200 OK in 229ms (Views: 103.5ms | ActiveRecord: 33.0ms | Allocations: 31269)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-05 10:04:08 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:04:08 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-05 10:04:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-05 10:04:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:11:12 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 0.9ms | Allocations: 109)
+  Rendered teams/_form.html.erb (Duration: 8.5ms | Allocations: 751)
+  Rendered teams/new.html.erb within layouts/application (Duration: 11.4ms | Allocations: 837)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 1952)
+Completed 200 OK in 158ms (Views: 23.4ms | ActiveRecord: 20.6ms | Allocations: 6967)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-05 10:11:12 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:11:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-05 10:11:13 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-05 10:11:14 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:14:22 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 3.2ms | Allocations: 349)
+  Rendered teams/_form.html.erb (Duration: 64.8ms | Allocations: 7296)
+  Rendered teams/new.html.erb within layouts/application (Duration: 68.5ms | Allocations: 7685)
+  Rendered layout layouts/application.html.erb (Duration: 107.1ms | Allocations: 15818)
+Completed 200 OK in 261ms (Views: 105.7ms | ActiveRecord: 51.6ms | Allocations: 31381)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-05 10:14:23 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:14:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/assets/images/products/product-1.png" for ::1 at 2024-09-05 10:14:24 +0100
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-05 10:14:24 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/teams/assets/images/products/product-1.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-05 10:14:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:15:29 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 4.3ms | Allocations: 351)
+  Rendered teams/_form.html.erb (Duration: 129.7ms | Allocations: 7306)
+  Rendered teams/new.html.erb within layouts/application (Duration: 133.6ms | Allocations: 7691)
+  Rendered layout layouts/application.html.erb (Duration: 210.8ms | Allocations: 15824)
+Completed 200 OK in 380ms (Views: 204.5ms | ActiveRecord: 48.2ms | Allocations: 31275)
+
+
+Started GET "/fonts/materialdesignicons-webfont.woff2?v=5.9.55" for ::1 at 2024-09-05 10:15:30 +0100
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:15:30 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff2"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.woff?v=5.9.55" for ::1 at 2024-09-05 10:15:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.woff"):
+  
+Started GET "/fonts/materialdesignicons-webfont.ttf?v=5.9.55" for ::1 at 2024-09-05 10:15:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/materialdesignicons-webfont.ttf"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:17:27 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 1.3ms | Allocations: 109)
+  Rendered teams/_form.html.erb (Duration: 9.7ms | Allocations: 751)
+  Rendered teams/new.html.erb within layouts/application (Duration: 12.3ms | Allocations: 837)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 1952)
+Completed 200 OK in 52ms (Views: 29.8ms | ActiveRecord: 1.3ms | Allocations: 3981)
+
+
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:17:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:18:14 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 9.0ms | Allocations: 487)
+  Rendered teams/_form.html.erb (Duration: 99.2ms | Allocations: 7437)
+  Rendered teams/new.html.erb within layouts/application (Duration: 105.2ms | Allocations: 7822)
+  Rendered layout layouts/application.html.erb (Duration: 160.9ms | Allocations: 15954)
+Completed 200 OK in 336ms (Views: 155.3ms | ActiveRecord: 53.6ms | Allocations: 31381)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:18:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:18:26 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.6ms | Allocations: 209)
+  Rendered teams/_form.html.erb (Duration: 13.1ms | Allocations: 855)
+  Rendered teams/new.html.erb within layouts/application (Duration: 15.1ms | Allocations: 941)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 2056)
+Completed 200 OK in 57ms (Views: 31.8ms | ActiveRecord: 1.8ms | Allocations: 4091)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:18:28 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:19:09 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 5.5ms | Allocations: 499)
+  Rendered teams/_form.html.erb (Duration: 223.5ms | Allocations: 7469)
+  Rendered teams/new.html.erb within layouts/application (Duration: 261.5ms | Allocations: 7855)
+  Rendered layout layouts/application.html.erb (Duration: 320.2ms | Allocations: 15988)
+Completed 200 OK in 768ms (Views: 346.6ms | ActiveRecord: 35.9ms | Allocations: 31450)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:19:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:19:51 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 2.0ms | Allocations: 209)
+  Rendered teams/_form.html.erb (Duration: 8.2ms | Allocations: 855)
+  Rendered teams/new.html.erb within layouts/application (Duration: 10.1ms | Allocations: 941)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 2056)
+Completed 200 OK in 39ms (Views: 22.8ms | ActiveRecord: 1.4ms | Allocations: 4065)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:19:53 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:22:47 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 35.7ms | Allocations: 5581)
+  Rendered teams/_form.html.erb (Duration: 94.0ms | Allocations: 13419)
+  Rendered teams/new.html.erb within layouts/application (Duration: 97.3ms | Allocations: 13765)
+  Rendered layout layouts/application.html.erb (Duration: 98.3ms | Allocations: 13848)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 34.1ms | Allocations: 29276)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<ActionView::Base:0x000000000789d8>
+Did you mean?  for
+               fork):
+    14:                     <tr>
+    15:                         <th scope="row">
+    16:                             <%= f.label :role, "Função" %>
+    17:                             <%= form.select :role, Post.roles.keys.map{|key, value| [key, key]} , {}, :class => 'form-control' %>
+    18:                         </th>
+    19:                     </tr>
+    20:                 </tbody>
+  
+app/views/teams/_member_fields.html.erb:17
+app/views/teams/_form.html.erb:30
+app/views/teams/_form.html.erb:29
+app/views/teams/_form.html.erb:1
+app/views/teams/new.html.erb:8
+Started GET "/teams/new" for ::1 at 2024-09-05 10:23:12 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 41.8ms | Allocations: 2362)
+  Rendered teams/_form.html.erb (Duration: 131.1ms | Allocations: 10143)
+  Rendered teams/new.html.erb within layouts/application (Duration: 134.9ms | Allocations: 10489)
+  Rendered layout layouts/application.html.erb (Duration: 135.9ms | Allocations: 10572)
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 37.0ms | Allocations: 25983)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x000077f16c67bcb0>::Post):
+    14:                     <tr>
+    15:                         <th scope="row">
+    16:                             <%= f.label :role, "Função" %>
+    17:                             <%= f.select :role, Post.roles.keys.map{|key, value| [key, key]} , {}, :class => 'form-control' %>
+    18:                         </th>
+    19:                     </tr>
+    20:                 </tbody>
+  
+app/views/teams/_member_fields.html.erb:17
+app/views/teams/_form.html.erb:30
+app/views/teams/_form.html.erb:29
+app/views/teams/_form.html.erb:1
+app/views/teams/new.html.erb:8
+Started GET "/teams/new" for ::1 at 2024-09-05 10:23:40 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 20.0ms | Allocations: 1331)
+  Rendered teams/_form.html.erb (Duration: 103.4ms | Allocations: 9301)
+  Rendered teams/new.html.erb within layouts/application (Duration: 108.2ms | Allocations: 9686)
+  Rendered layout layouts/application.html.erb (Duration: 141.0ms | Allocations: 17861)
+Completed 200 OK in 270ms (Views: 136.5ms | ActiveRecord: 35.5ms | Allocations: 33296)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:23:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:24:08 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 9.8ms | Allocations: 583)
+  Rendered teams/_form.html.erb (Duration: 78.8ms | Allocations: 8580)
+  Rendered teams/new.html.erb within layouts/application (Duration: 83.2ms | Allocations: 8965)
+  Rendered layout layouts/application.html.erb (Duration: 120.1ms | Allocations: 17096)
+Completed 200 OK in 355ms (Views: 120.4ms | ActiveRecord: 52.6ms | Allocations: 32530)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:24:11 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started GET "/fonts/feather.woff?t=1525787366991" for ::1 at 2024-09-05 10:24:21 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/feather.woff"):
+  
+Started GET "/fonts/feather.ttf?t=1525787366991" for ::1 at 2024-09-05 10:24:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/feather.ttf"):
+  
+Started GET "/" for ::1 at 2024-09-05 10:24:27 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.1ms | Allocations: 479)
+Completed 200 OK in 19ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 1700)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/teams/new" for ::1 at 2024-09-05 10:30:20 +0100
+Processing by TeamsController#new as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 5.5ms | Allocations: 583)
+  Rendered teams/_form.html.erb (Duration: 91.6ms | Allocations: 8248)
+  Rendered teams/new.html.erb within layouts/application (Duration: 97.4ms | Allocations: 8637)
+  Rendered layout layouts/application.html.erb (Duration: 137.6ms | Allocations: 16769)
+Completed 200 OK in 379ms (Views: 147.7ms | ActiveRecord: 25.2ms | Allocations: 34596)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:30:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
+Started POST "/teams" for ::1 at 2024-09-05 10:39:18 +0100
+Processing by TeamsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "team"=>{"name"=>"Spartacus", "image"=>"img.png", "members_attributes"=>{"1725528624496"=>{"name"=>"Ariclene", "role"=>"Tecnico"}}}, "commit"=>"Enviar"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/teams_controller.rb:27:in `block in create'
+  [1m[36mTeam Create (13.4ms)[0m  [1m[32mINSERT INTO "teams" ("name", "image", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Spartacus"], ["image", "img.png"], ["status", nil], ["created_at", "2024-09-05 09:39:18.923498"], ["updated_at", "2024-09-05 09:39:18.923498"]]
+  ↳ app/controllers/teams_controller.rb:27:in `block in create'
+  [1m[36mMember Create (5.3ms)[0m  [1m[32mINSERT INTO "members" ("name", "created_at", "updated_at", "team_id", "role") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ariclene"], ["created_at", "2024-09-05 09:39:18.953021"], ["updated_at", "2024-09-05 09:39:18.953021"], ["team_id", 1], ["role", 0]]
+  ↳ app/controllers/teams_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/teams_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/teams/1
+Completed 302 Found in 397ms (ActiveRecord: 49.5ms | Allocations: 31357)
+
+
+Started GET "/teams/1" for ::1 at 2024-09-05 10:39:19 +0100
+Processing by TeamsController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTeam Load (1.1ms)[0m  [1m[34mSELECT "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/teams_controller.rb:63:in `set_team'
+  Rendering layout layouts/application.html.erb
+  Rendering teams/show.html.erb within layouts/application
+  Rendered teams/_team.html.erb (Duration: 2.7ms | Allocations: 296)
+  Rendered teams/show.html.erb within layouts/application (Duration: 26.0ms | Allocations: 1462)
+  Rendered layout layouts/application.html.erb (Duration: 75.0ms | Allocations: 9587)
+Completed 200 OK in 162ms (Views: 88.4ms | ActiveRecord: 5.4ms | Allocations: 14317)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/teams/1" for ::1 at 2024-09-05 10:39:36 +0100
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTeam Load (1.3ms)[0m  [1m[34mSELECT "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/teams_controller.rb:63:in `set_team'
+  Rendering layout layouts/application.html.erb
+  Rendering teams/show.html.erb within layouts/application
+  Rendered teams/_team.html.erb (Duration: 0.4ms | Allocations: 18)
+  Rendered teams/show.html.erb within layouts/application (Duration: 5.7ms | Allocations: 323)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 1434)
+Completed 200 OK in 44ms (Views: 20.4ms | ActiveRecord: 2.4ms | Allocations: 4026)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/teams/1/edit" for ::1 at 2024-09-05 10:39:42 +0100
+Processing by TeamsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTeam Load (4.0ms)[0m  [1m[34mSELECT "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/teams_controller.rb:63:in `set_team'
+  Rendering layout layouts/application.html.erb
+  Rendering teams/edit.html.erb within layouts/application
+  Rendered teams/_member_fields.html.erb (Duration: 8.0ms | Allocations: 532)
+  [1m[36mMember Load (1.6ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."team_id" = $1[0m  [["team_id", 1]]
+  ↳ app/views/teams/_form.html.erb:34
+  Rendered teams/_member_fields.html.erb (Duration: 2.8ms | Allocations: 265)
+  Rendered teams/_form.html.erb (Duration: 42.5ms | Allocations: 4349)
+  Rendered teams/edit.html.erb within layouts/application (Duration: 48.8ms | Allocations: 4741)
+  Rendered layout layouts/application.html.erb (Duration: 57.3ms | Allocations: 5894)
+Completed 200 OK in 95ms (Views: 58.4ms | ActiveRecord: 6.6ms | Allocations: 8392)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/weather-icons.css.map"):
+  
+Started GET "/fonts/cerebrisans-medium.woff" for ::1 at 2024-09-05 10:39:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/cerebrisans-medium.woff"):
+  
