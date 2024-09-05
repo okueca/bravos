@@ -22,7 +22,7 @@ class TeamMembersController < ApplicationController
   # POST /team_members or /team_members.json
   def create
     @team_member = TeamMember.new(team_member_params)
-
+    @team_member.user_id = current.id
     respond_to do |format|
       if @team_member.save
         format.html { redirect_to team_member_url(@team_member), notice: "Team member was successfully created." }

@@ -1,0 +1,211 @@
+pt:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "registo_invalido"
+      models:
+        user:
+          attributes:
+            password:
+              blank: "não pode estar em branco."
+              too_short: "muito curta"
+            password_confirmation:
+              confirmation: "deve ser igual."
+            email:
+              blank: "não pode estar em branco."
+            reset_password_token:
+              invalid: "expirou"
+          invalid: "Utilizador Invalido"
+    models:
+      user:
+        attributes:
+          email:
+            blank: "O email não pode estar em branco"
+  abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  date:
+    abbr_day_names:
+      - Dom
+      - Seg
+      - Ter
+      - Qua
+      - Qui
+      - Sex
+      - Sáb
+    day_names: [Domingo, Segunda-feira, Terça-feira, Quarta-feira, Quinta-feira, Sexta-feira, Sabádo]
+    abbr_day_names: [Dom, Seg, Ter, Qua, Qui, Sex, Sab]
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names: [~, Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
+    abbr_month_names: [~, Jan, Fev , Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez]
+    order:
+      - :day
+      - :month
+      - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: aproximadamente 1 hora
+        other: aproximadamente %{count} horas
+      about_x_months:
+        one: aproximadamente 1 mês
+        other: aproximadamente %{count} meses
+      about_x_years:
+        one: aproximadamente 1 ano
+        other: aproximadamente %{count} anos
+      almost_x_years:
+        one: quase 1 ano
+        other: quase %{count} anos
+      half_a_minute: meio minuto
+      less_than_x_minutes:
+        one: menos de um minuto
+        other: menos de %{count} minutos
+      less_than_x_seconds:
+        one: menos de 1 segundo
+        other: menos de %{count} segundos
+      over_x_years:
+        one: mais de 1 ano
+        other: mais de %{count} anos
+      x_days:
+        one: 1 dia
+        other: "%{count} dias"
+      x_minutes:
+        one: 1 minuto
+        other: "%{count} minutos"
+      x_months:
+        one: 1 mês
+        other: "%{count} meses"
+      x_seconds:
+        one: 1 segundo
+        other: "%{count} segundos"
+      x_years:
+        one: 1 ano
+        other: "%{count} anos"
+    prompts:
+      day: Dia
+      hour: Hora
+      minute: Minuto
+      month: Mês
+      second: Segundo
+      year: Ano
+
+  news_draft: Rascunho
+  news_private: Privado
+  news_public: Público
+  simple_calendar:
+    previous: "<<"
+    next: ">>"
+    week: Mês
+    year: Ano
+    
+  add: Adicionar
+  add_new: Adicionar novo
+  cancel: Cancelar
+  close: Fechar
+  create: Criar
+  delete: Eliminar
+  edit: Editar
+  save: Guardar
+  update: Atualizar
+  service: Serviço
+  contact: Contacto
+
+  add_new_customer: Adicionar novo cliente
+  active: "Activa"
+  disable: "Desativada"
+  avaliable: "Disponível"
+  unavaliable: "Indisponivel"
+  pending: "Pendente"
+  approved: "Aprovado"
+  on_approval: "Em Aprovação"
+  in_approval: "Em Aprovação"
+  not_approved: "Não aprovado"
+  not_paid: "Não Pago"
+  already_aproved: "já aprovados"
+  waiting_payment: "Aguardando Pagamento"
+  process_payment: "Processar Pagamento"
+  close_service: "Fechar Serviço"
+  contacted: "Contactado"
+  contact_reason: "Breve descrição do motivo de contacto ..."
+  scale_service: "Fazer escalagem"
+  driver: "Motorista"
+  manager: "Responsavél"
+  assistant: "Técnico"
+  collaborator: "Colaborador"
+  admin: "Administrador"
+  other: "Outro"
+  closed: "Fechada"
+  in_progress: "Em Processamento"
+  created: "Criada"
+  product: Produto
+  products: Produtos
+  collaborator: Colaborador
+  collaborators: Colaboradores
+  done: "Concluído"
+  in_warehouse: "Em Armazenamento"
+
+  name: Nome
+  description: Descrição
+  price: Preço
+  status: Estado
+  category: Categoria
+
+  nif: NIF
+  doc_number: Nº DOC
+
+  
+  number:
+    currency:
+      format:
+        delimiter: "."
+        format: "%u %n"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "€"
+    format:
+      delimiter: "."
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion:
+            one: mil milhões
+            other: mil milhões
+          million:
+            one: milhão
+            other: milhões
+          quadrillion:
+            one: mil biliões
+            other: mil biliões
+          thousand: mil
+          trillion:
+            one: bilião
+            other: biliões
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 1
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+          pb: PB
+          eb: EB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''

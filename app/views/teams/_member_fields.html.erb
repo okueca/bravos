@@ -1,10 +1,15 @@
 
 
-    <div class="row p-1">
+    <div class="row p-1 nested-form-wrapper" data-new-record="<%= f.object.new_record? %>">
     
         <div class="col-12">
             <table class="table table-bordered table-centered mb-0">
                 <tbody>
+                    <tr>
+                        <button type="button" class="btn btn-xs btn-danger waves-effect waves-light" data-action="nested-form#remove">
+                            X
+                        </button>
+                    </tr>
                     <tr>
                         <th scope="row">
                             <%= f.label :name, "Nome" %>

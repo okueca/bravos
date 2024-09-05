@@ -9,7 +9,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= javascript_importmap_tags %>
-    
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
 
     <!-- Plugins css Alterado-->
     <link href="<%= asset_path('libs/flatpickr/flatpickr.min.css') %>" rel="stylesheet" type="text/css" />
@@ -45,7 +45,15 @@
             pointer-events: none; /* Prevents mouse clicks */
             opacity: 0.5; /* Adds visual indication of disabled state */
         }
+        body {
+            background-image: url(' <%= asset_path('images/backgroundBravos.png') %> ');
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center; /* Centers the image */
+            background-attachment: fixed; /* Keeps the image fixed when scrolling */
+        }
     </style>
+
   </head>
 
   <body>
@@ -58,81 +66,89 @@
             <div class="content-page">
 
                 <!-- ========== Topbar Start ========== -->
-                <div class="navbar-custom">
-                    <div class="topbar">
-                        <div class="topbar-menu d-flex align-items-center gap-1">
+                <% if current_user != nil %>
+                    <div class="navbar-custom">
+                        <div class="topbar">
+                            <div class="topbar-menu d-flex align-items-center gap-1">
 
-                            <!-- Topbar Brand Logo -->
-                            <div class="logo-box">
-                                <!-- Brand Logo Light -->
-                                <a data-turbo="false" href="index.html" class="logo-light">
-                                    <img src="<%= asset_path('images/logo-light.png') %>" alt="logo" class="logo-lg">
-                                    <img src="<%= asset_path('images/logo-sm.png') %>" alt="small logo" class="logo-sm">
-                                </a>
+                                <!-- Topbar Brand Logo -->
+                                <div class="logo-box">
+                                    <!-- Brand Logo Light -->
+                                    <a data-turbo="false" href="/" class="logo-light">
+                                        <img src="<%= asset_path('images/logo-light.png') %>" alt="logo" class="logo-lg">
+                                        <img src="<%= asset_path('images/logo-sm.png') %>" alt="small logo" class="logo-sm">
+                                    </a>
 
-                                <!-- Brand Logo Dark -->
-                                <a data-turbo="false" href="index.html" class="logo-dark">
-                                    <img src="<%= asset_path('images/logo-dark.png') %>" alt="dark logo" class="logo-lg">
-                                    <img src="<%= asset_path('images/logo-sm.png') %>" alt="small logo" class="logo-sm">
-                                </a>
-                            </div>
-
-                            <!-- Sidebar Menu Toggle Button
-                            <button class="button-toggle-menu ">
-                                <i data-feather="menu"></i>
-                            </button>
-                             -->
-                            <div class="row d-block d-sm-none">
-                                
-                                <a data-turbo="false" class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    <i data-feather="menu"></i>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
-                                      <!-- item-->
-                                      <!-- item-->
-                                  <a data-turbo="false" href="javascript:void(0);" class="dropdown-item notify-item">
-                                      <i class="fe-user me-1"></i>
-                                      <span>Painel</span>
-                                  </a>
-
-                                  <!-- item-->
-                                  <a data-turbo="false" href="javascript:void(0);" class="dropdown-item notify-item">
-                                      <i class="fe-settings me-1"></i>
-                                      <span>Minhas Equipas</span>
-                                  </a>
-
-                                  <!-- item-->
-                                  <a data-turbo="false" href="javascript:void(0);" class="dropdown-item notify-item">
-                                      <i class="fe-log-out me-1"></i>
-                                      <span>Sair</span>
-                                  </a>
+                                    <!-- Brand Logo Dark -->
+                                    <a data-turbo="false" href="/" class="logo-dark">
+                                        <img src="<%= asset_path('images/logo-dark.png') %>" alt="dark logo" class="logo-lg">
+                                        <img src="<%= asset_path('images/logo-sm.png') %>" alt="small logo" class="logo-sm">
+                                    </a>
+                                   
+                                    
                                 </div>
+
+                                <!-- Sidebar Menu Toggle Button
+                                <button class="button-toggle-menu ">
+                                    <i data-feather="menu"></i>
+                                </button>
+                                -->
+                                <div class="row d-block d-sm-none">
+                                    
+                                    <a data-turbo="false" class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                        <i data-feather="menu"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
+
+                                        <a data-turbo="false" href="<%= teams_path %>" class="dropdown-item notify-item">
+                                            <i class="fe-user me-1"></i>
+                                            <span>Painel</span>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a data-turbo="false" href="<%= teams_path %>?user=current" class="dropdown-item notify-item">
+                                            <i class="fe-settings me-1"></i>
+                                            <span>Minhas Equipas</span>
+                                        </a>
+
+                                        <%= form_with url: destroy_user_session_path, method: :delete, class:"dropdown-item notify-item" do |form| %>
+                                            <%= form.button class:"dropdown-item notify-item", data:{turbo:"false"} do%>
+                                                Sair
+                                            <% end%>
+                                        <% end %>
+                                    </div>
+
+                                    
+                                </div>
+
+                                <!-- Dropdown Menu -->
+                                <div class="dropdown d-none d-xl-block">
+                                    <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                        Painel
+                                        <i class="mdi mdi-chevron-down ms-1"></i>
+                                    </a>
+                                </div>
+
+                                <div class="dropdown dropdown-mega d-none d-xl-block">
+                                    <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                        Minhas Equipas
+                                        <i class="mdi mdi-chevron-down ms-1"></i>
+                                    </a>
+                                </div>
+
+                                <div class="dropdown dropdown-mega d-none d-xl-block">
+                                    <%= form_with url: destroy_user_session_path, method: :delete do |form| %>
+                                        <%= form.button class:"dropdown-item notify-item", data:{turbo:"false"} do%>
+                                            <i class="fas fa-sign-out-alt"></i> Sair
+                                        <% end%>
+                                    <% end %>
+                                </div>
+                                <img src="<%= asset_path('images/logo-mobile.png') %>" style="margin-left: 10px;" alt="small logo">
                             </div>
 
-                            <!-- Dropdown Menu -->
-                            <div class="dropdown d-none d-xl-block">
-                                <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    Painel
-                                    <i class="mdi mdi-chevron-down ms-1"></i>
-                                </a>
-                            </div>
-
-                            <div class="dropdown dropdown-mega d-none d-xl-block">
-                                <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    Minhas Equipas
-                                    <i class="mdi mdi-chevron-down ms-1"></i>
-                                </a>
-                            </div>
-
-                            <div class="dropdown dropdown-mega d-none d-xl-block">
-                                <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    Sair
-                                    <i class="mdi mdi-chevron-down ms-1"></i>
-                                </a>
-                            </div>
                         </div>
                     </div>
-                </div>
+                <% end %>
                 <!-- ========== Topbar End ========== -->
 
                 <div class="content">
@@ -177,40 +193,8 @@
         <script src="<%= asset_path('libs/flatpickr/flatpickr.min.js') %>"></script>
         <script src="<%= asset_path('libs/selectize/js/standalone/selectize.min.js') %>"></script>
 
-        <!-- Dashboar 1 init js-->
-        <script src="<%= asset_path('pages/dashboard-1.init.js') %>"></script>
-
         <!-- App js-->
         <script src="<%= asset_path('app.min.js') %>"></script>
 
-        <script src="<%= asset_path('libs/datatables.net/js/jquery.dataTables.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-responsive/js/dataTables.responsive.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-buttons/js/dataTables.buttons.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-buttons-bs5/js/buttons.bootstrap5.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-buttons/js/buttons.html5.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-buttons/js/buttons.flash.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-buttons/js/buttons.print.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-keytable/js/dataTables.keyTable.min.js') %>"></script>
-        <script src="<%= asset_path('libs/datatables.net-select/js/dataTables.select.min.js') %>"></script>
-        <script src="<%= asset_path('index.js') %>"></script>
-        <script src="<%= asset_path('pages/datatables.init.js') %>"></script>
-
-        <!----- Calendar---->
-
-        <script src="<%= asset_path('libs/moment/min/moment.min.js') %>"></script>
-        <script src="<%= asset_path('libs/fullcalendar/main.min.js') %>"></script>
-        <script src="<%= asset_path('libs/autonumeric/autoNumeric.min.js') %>"></script>
-
-        <!-- Calendar init -->
-        <script src="<%= asset_path('pages/calendar.init.js') %>"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                setTimeout(function(){
-                    $('#flash').remove();
-                }, 5000);
-            })
-        </script>
   </body>
 </html>

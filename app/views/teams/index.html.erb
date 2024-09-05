@@ -1,14 +1,63 @@
-<p style="color: green"><%= notice %></p>
+<% if notice != nil %>
+<div class="row mt-2">
+    <div 
+    data-controller="notification"
+    data-notification-delay-value="8000"
+    data-transition-enter-from="opacity-0 translate-x-6"
+    data-transition-enter-to="opacity-100 translate-x-0"
+    data-transition-leave-from="opacity-100 translate-x-0"
+    data-transition-leave-to="opacity-0 translate-x-6"
+    class="col-12 row alert alert-success alert-dismissible bg-success text-white border-0 fade show transition transform duration-1000 hidden" role="alert">
+        <div class="col-10">
+          <%= notice %>
+        </div>
+        <!---
+        <div class="col-2">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close" data-action="notification#hide"></button>
+        </div>
+        ----->
+    </div>
+<div>
+<% end %>
 
-<h1>Teams</h1>
 
-<div id="teams">
-  <% @teams.each do |team| %>
-    <%= render team %>
-    <p>
-      <%= link_to "Show this team", team, data:{turbo:"false"} %>
-    </p>
+<div class="row mt-2">
+  <div class="col-sm-4">
+    <%= link_to "+ Criar uma Equipa", new_team_path,class:"btn btn-danger rounded-pill waves-effect waves-light mb-3", data:{turbo:"false"}%>
+  </div>
+<div>
+
+<div class="row">
+<% @teams.each do |team| %>
+ 
+    <div class="col-lg-6">
+        <div class="card project-box">
+            <div class="card-body">
+                <!-- Title-->
+                <h4 class="mt-0"><a href="project-detail.html" class="text-dark"><%= team.name%></a></h4>
+                <div class="badge bg-soft-success text-success mb-3">Torneio Fut7 Bravos</div>
+                <!-- Desc-->
+                <p class="text-muted font-13 mb-3 sp-line-2"><%= team.description%>
+                </p>
+                <!-- Task info-->
+                <p class="mb-1">
+                    <span class="pe-2 text-nowrap mb-2 d-inline-block">
+                        <i class="mdi mdi-format-list-bulleted-type text-muted"></i>
+                        <b><%= team.members.count%></b> Membros
+                    </span>
+                </p>
+                <!-- Team-->
+                <div class="avatar-group mb-3" id="tooltips-container">
+                  <% team&.members&.each do |member| %>
+                    <a href="javascript: void(0);" class="avatar-group-item">
+                        <img src="<%= asset_path('images/users/user-1.jpg') %>" class="rounded-circle avatar-sm" alt="<%= member.role%>" data-bs-container="#tooltips-container" data-bs-toggle="tooltip" data-bs-placement="bottom" title="<%= member.name%>" />
+                    </a>
+                  <% end %>
+                </div>
+               
+            </div>
+        </div> <!-- end card box-->
+    </div><!-- end col-->
   <% end %>
 </div>
-
-<%= link_to "New team", new_team_path, data:{turbo:"false"}%>
+<!-- end row -->

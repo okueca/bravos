@@ -3,7 +3,11 @@ class TeamsController < ApplicationController
 
   # GET /teams or /teams.json
   def index
-    @teams = Team.all
+    if params[:user] == "current"
+      @teams = current_user.teams.all
+    else
+      @teams = Team.all
+    end
   end
 
   # GET /teams/1 or /teams/1.json
@@ -25,7 +29,7 @@ class TeamsController < ApplicationController
 
     respond_to do |format|
       if @team.save
-        format.html { redirect_to team_url(@team), notice: "Team was successfully created." }
+        format.html { redirect_to teams_url, notice: "Equipa criada com sucesso." }
         format.json { render :show, status: :created, location: @team }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -38,7 +42,7 @@ class TeamsController < ApplicationController
   def update
     respond_to do |format|
       if @team.update(team_params)
-        format.html { redirect_to team_url(@team), notice: "Team was successfully updated." }
+        format.html { redirect_to teams_url, notice: "Equipa atualizada com sucesso." }
         format.json { render :show, status: :ok, location: @team }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -52,7 +56,7 @@ class TeamsController < ApplicationController
     @team.destroy!
 
     respond_to do |format|
-      format.html { redirect_to teams_url, notice: "Team was successfully destroyed." }
+      format.html { redirect_to teams_url, notice: "Equipa eliminada com sucesso." }
       format.json { head :no_content }
     end
   end
@@ -66,7 +70,7 @@ class TeamsController < ApplicationController
     # Only allow a list of trusted parameters through.
     def team_params
       params.require(:team)
-        .permit(:name, :image, :status,
+        .permit(:name, :image, :status, :description, :user_id,
                 members_attributes: [:id, :name, :role, :_destroy]
         )
     end

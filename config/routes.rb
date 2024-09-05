@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'teams#index'
   resources :team_members
   resources :members
   resources :teams
