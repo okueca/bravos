@@ -89,6 +89,6 @@ production:
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   port: 5432
-  database: bravos
-  username: bravos
-  password: bravos2023
+  database: <%= ENV.fetch("DATABASE_NAME") { 5 } %>
+  username: <%= ENV.fetch("DATABASE_USER") { 5 } %>
+  password: <%= ENV.fetch("DATABASE_PASSWORD") { 5 } %>
