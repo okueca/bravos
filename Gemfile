@@ -74,7 +74,7 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
   gem 'capistrano-cookbook', require: false
-  gem 'capistrano', '~> 3.19.0', require: false
+  gem 'capistrano', require: false
   gem 'capistrano-rails',   require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano3-puma',   require: false
