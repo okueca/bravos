@@ -77,8 +77,9 @@ group :development do
   gem 'capistrano', require: false
   gem 'capistrano-rails',   require: false
   gem 'capistrano-bundler', require: false
-  gem 'capistrano3-puma',   require: false
+  gem 'capistrano-puma',   require: false
   gem 'capistrano-rbenv', '~> 2.2'
+  gem 'capistrano-passenger'
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
