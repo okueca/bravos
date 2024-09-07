@@ -1,0 +1,33 @@
+<%= form_with(model: game, class:"needs-validation" , data: { controller: 'nested-form', nested_form_wrapper_selector_value: '.nested-form-wrapper' } ) do |form| %>
+  <% if game.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(game.errors.count, "error") %> prohibited this game from being saved:</h2>
+
+      <ul>
+        <% game.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :first_team_id, "Equipa 1", style: "display: block" %>
+    <%= form.select :first_team_id, Team.all.collect { |t| [t.name, t.id] }, {}, class: 'form-control select2', data:{controller:"select2"} %>
+  </div>
+
+  <div>
+    <%= form.label :second_team_id, "Equipa 2", style: "display: block" %>
+    <%= form.select :second_team_id, Team.all.collect { |t| [t.name, t.id] }, {}, class: 'form-control' %>
+  </div>
+
+  <div>
+    <%= form.label :result, "Resultado", style: "display: block" %>
+    <%= form.text_field :result , placeholder:"resultadoEquipa1:ResultadoEquipa2", class: "form-control"%>
+  </div>
+
+<br>
+  <div>
+    <%= form.submit "Registar Jogo", class:"btn btn-primary waves-effect waves-light", data: { turbo:false }%>
+  </div>
+<% end %>

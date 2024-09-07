@@ -105,7 +105,10 @@
                                             <i class="fe-user me-1"></i>
                                             <span>Painel</span>
                                         </a>
-
+                                        <a data-turbo="false" href="<%= games_path %>" class="dropdown-item notify-item">
+                                            <i class="fe-settings me-1"></i>
+                                            <span>Jogos</span>
+                                        </a>
                                         <!-- item-->
                                         <a data-turbo="false" href="<%= teams_path %>?user=current" class="dropdown-item notify-item">
                                             <i class="fe-settings me-1"></i>
@@ -129,7 +132,12 @@
                                         <i class="mdi mdi-chevron-down ms-1"></i>
                                     </a>
                                 </div>
-
+                                <div class="dropdown dropdown-mega d-none d-xl-block">
+                                    <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" href="<%= games_path %>?user=current" >
+                                        Jogos
+                                        <i class="mdi mdi-chevron-down ms-1"></i>
+                                    </a>
+                                </div>
                                 <div class="dropdown dropdown-mega d-none d-xl-block">
                                     <a data-turbo="false" class="nav-link dropdown-toggle waves-effect waves-light" href="<%= teams_path %>?user=current" >
                                         Minhas Equipas
