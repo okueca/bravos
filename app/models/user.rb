@@ -5,4 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :teams, class_name: "Team"
+  enum role: [:admin, :normal], _default: :normal
 end
