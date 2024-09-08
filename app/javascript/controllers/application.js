@@ -11,7 +11,7 @@ application.register('password-visibility', PasswordVisibility)
 application.register("select2", Select2Controller)
 
 // Configure Stimulus development experience
-application.debug = false
+application.debug = true
 window.Stimulus   = application
 
 export { application }
