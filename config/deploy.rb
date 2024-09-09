@@ -15,3 +15,5 @@ set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 set :rbenv_path, '/home/mudex/.rbenv'
 
 set :passenger_restart_with_touch, false
+
+set :assets_manifests, ['app/assets/config/manifest.js']
