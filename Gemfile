@@ -56,6 +56,8 @@ gem "font-awesome-sass", "~> 6.3.0"
 gem 'devise'
 gem 'devise-i18n'
 
+gem 'i18n', '~> 1.10'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 
