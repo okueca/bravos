@@ -35,7 +35,7 @@
 //= link vendor.min.js
 //= link app.min.js
 //= link index.js
-//= link controllers/flash_controller.js
+//= link jquery_ujs.js
 //= link controllers/nested_form_controller.js
 
 //= link pages/calendar.init.js

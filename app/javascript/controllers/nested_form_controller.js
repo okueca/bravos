@@ -4,7 +4,7 @@ export default class extends NestedForm {
   static targets = [ "links", "template" ]
   
   connect() {
-
+    console.log("Cotroller nested");
   }
 
   add_association(event) {
