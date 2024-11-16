@@ -14,10 +14,13 @@
             <%= link_to "Voltar para Atividades", activities_path, class: "btn btn-secondary" %>
             <% button_to "Excluir Atividade", @activity, method: :delete, data: { confirm: "Tem certeza que deseja excluir esta atividade?" }, class: "btn btn-danger" %>
           <% end %>
-          <% if @activity.payments.exists?(user_id: current_user.id)%>
-            <% if @activity.payments.find_by(user_id: current_user.id).status != "completed" %>
+
+          <% if !@activity.payments.exists?(user_id: current_user.id)%>
               <%= link_to "Participar Da Atividade", edit_activity_path(@activity), class: "btn", style: "color: black; background-color: #91ff46;" %>
-            <% end %>
+          <% else %>
+              <% if @activity.payments.find_by(user_id: current_user.id).status != "completed" %>
+                <%= link_to "Participar Da Atividade", edit_activity_path(@activity), class: "btn", style: "color: black; background-color: #91ff46;" %>
+              <% end %>
           <% end %>
         </div>
       </div>
