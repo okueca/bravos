@@ -1,0 +1,40 @@
+<div id="<%= dom_id activity %>" class="activity-details p-3 border rounded shadow-sm">
+  <h4 class="fw-bold text-primary mb-3"><%= activity.name %></h4>
+  
+  <div class="mb-2">
+    <strong>Datas:</strong>
+    <p class="mb-1">
+      <span class="text-muted">Início: </span><%= activity.date_start.strftime("%d/%m/%Y") if activity.date_start %>
+    </p>
+    <p class="mb-1">
+      <span class="text-muted">Fim: </span><%= activity.date_end.strftime("%d/%m/%Y") if activity.date_end %>
+    </p>
+  </div>
+  
+  <div class="mb-2">
+    <strong>Horários:</strong>
+    <p class="mb-1">
+      <span class="text-muted">Início: </span><%= activity.start_hour %>
+    </p>
+    <p class="mb-1">
+      <span class="text-muted">Fim: </span><%= activity.end_hour %>
+    </p>
+  </div>
+  
+  <div class="mb-2">
+    <strong>Preço:</strong>
+    <p class="mb-1">
+      <span class="text-muted">Valor: </span><%= number_to_currency(activity.price, unit: "€") if activity.price %>
+    </p>
+    <p class="mb-1">
+      <span class="text-muted">Por: </span><%= t(activity.price_by) %>
+    </p>
+  </div>
+
+  <div class="mb-2">
+    <strong>Sobre:</strong>
+    <p class="text-muted">
+      <%= activity.description %>
+    </p>
+  </div>
+</div>

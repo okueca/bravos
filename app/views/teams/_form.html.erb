@@ -1,18 +1,6 @@
 <%= form_with(model: team, class:"needs-validation" , data: { controller: 'nested-form', nested_form_wrapper_selector_value: '.nested-form-wrapper' } ) do |form| %>
   <%= form.hidden_field :user_id, value: current_user.id%>
 
-  <% if team.errors.any? %>
-    <div style="color: red">
-      <h2><%= pluralize(team.errors.count, "error") %> prohibited this team from being saved:</h2>
-
-      <ul>
-        <% team.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
-
   <div>
     <%= form.label :name, "Nome da equipa", style: "display: block" %>
     <%= form.text_field :name, class: "form-control" %>

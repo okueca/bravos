@@ -1,6 +1,6 @@
 import { Controller } from "@hotwired/stimulus"
 import Toastify from 'toastify-js';
-
+ 
 // Connects to data-controller="notifications"
 export default class extends Controller {
   static values = {

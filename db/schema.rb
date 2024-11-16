@@ -10,9 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_09_07_111826) do
+ActiveRecord::Schema[7.1].define(version: 2024_11_01_135255) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "activities", force: :cascade do |t|
+    t.string "name"
+    t.date "date_start"
+    t.date "date_end"
+    t.string "date_text"
+    t.float "price", default: 0.0
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "kind"
+    t.text "description"
+    t.integer "price_by"
+    t.string "start_hour"
+    t.string "end_hour"
+    t.string "location"
+  end
 
   create_table "games", force: :cascade do |t|
     t.bigint "first_team_id"
@@ -32,6 +48,18 @@ ActiveRecord::Schema[7.1].define(version: 2024_09_07_111826) do
     t.bigint "team_id", null: false
     t.integer "role"
     t.index ["team_id"], name: "index_members_on_team_id"
+  end
+
+  create_table "payments", force: :cascade do |t|
+    t.string "method"
+    t.bigint "user_id", null: false
+    t.bigint "activity_id", null: false
+    t.float "amount"
+    t.integer "status"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["activity_id"], name: "index_payments_on_activity_id"
+    t.index ["user_id"], name: "index_payments_on_user_id"
   end
 
   create_table "team_members", force: :cascade do |t|
@@ -72,6 +100,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_09_07_111826) do
   add_foreign_key "games", "teams", column: "first_team_id"
   add_foreign_key "games", "teams", column: "second_team_id"
   add_foreign_key "members", "teams"
+  add_foreign_key "payments", "activities"
+  add_foreign_key "payments", "users"
   add_foreign_key "team_members", "members"
   add_foreign_key "team_members", "teams"
   add_foreign_key "teams", "users"

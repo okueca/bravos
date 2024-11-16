@@ -138,3 +138,14 @@ cursor: default; }
     margin-right: 1em; }
 .flickr_pagination .next_page {
     margin-left: 1em; }
+.toast-close {
+    background: 0 0 !important;
+    border: 0 !important;
+    color: #080000 !important;
+    cursor: pointer !important;
+    font-family: inherit !important;
+    font-size: 1em !important;
+    opacity: 5 !important;
+    padding: 0 5px !important;
+    float: right !important;
+    }

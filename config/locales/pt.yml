@@ -1,8 +1,17 @@
 pt:
   activerecord:
+    attributes:
+      activity:
+        name: Nome
+        date_text: Tempo de duração
+      member:
+        name: Nome
+      team:
+        name: Nome
     errors:
       messages:
         record_invalid: "registo_invalido"
+        blank: "não pode estar em branco."
       models:
         user:
           attributes:
@@ -142,6 +151,8 @@ pt:
   done: "Concluído"
   in_warehouse: "Em Armazenamento"
 
+  group_activity: Grupo
+  person: Pessoa
   name: Nome
   description: Descrição
   price: Preço

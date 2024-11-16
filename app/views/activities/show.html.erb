@@ -1,0 +1,25 @@
+ <br>
+ <div class="row">
+  <div class="col-lg-12">
+    <div class="card project-box">
+      <div class="card-body">
+
+        <%= render "layouts/notifications", model_notifyng: @activity %>
+
+        <%= render @activity %>
+
+        <div class="mt-4 d-flex gap-3">
+          <% if current_user&.admin? %>
+            <%= link_to "Editar Atividade", edit_activity_path(@activity), class: "btn btn-outline-primary" %>
+            <%= link_to "Voltar para Atividades", activities_path, class: "btn btn-secondary" %>
+            <% button_to "Excluir Atividade", @activity, method: :delete, data: { confirm: "Tem certeza que deseja excluir esta atividade?" }, class: "btn btn-danger" %>
+          <% end %>
+
+          <% if @activity.payments.find_by(user_id: current_user.id).status != "completed" %>
+            <%= link_to "Participar Da Atividade", edit_activity_path(@activity), class: "btn", style: "color: black; background-color: #91ff46;" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

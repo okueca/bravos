@@ -4,4 +4,6 @@ class Member < ApplicationRecord
         Tecnico: 0,
         Jogador: 1
     }
+
+    validates :name, presence: true
 end

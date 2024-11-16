@@ -1,0 +1,17 @@
+<% if notice %>
+    <div data-controller="notifications"
+        data-notifications-message-value="<%= notice %>"
+        data-notifications-background-value="#0d6efd"
+        data-notifications-duration-value="5000">
+    </div>
+<% elsif model_notifyng&.errors != nil %>
+    <% if model_notifyng.errors.any? %> 
+            <% model_notifyng.errors.each do |error| %>
+                <div data-controller="notifications"
+                    data-notifications-message-value="<%= error.full_message %>"
+                    data-notifications-background-value="#dc3545"
+                    data-notifications-duration-value="50000000">
+                </div>
+            <% end %>
+    <% end %>
+<% end %>

@@ -1,0 +1,74 @@
+<%= render "layouts/notifications", model_notifyng: nil %>
+
+
+<div class="row mt-2">
+<% if current_user.role == "admin" %>
+  <div class="col-sm-4">
+    <%= link_to "+ Criar Nova Atividade", new_activity_path, class:"btn btn-danger rounded-pill waves-effect waves-light mb-3", data:{turbo:"false"}%>
+  </div>
+  <% end%>
+
+
+<div class="row">
+  <% @activities.each do |activity| %>
+    <div class="col-lg-6 mb-4">
+      <div class="card project-box shadow-sm border-0">
+        <div class="card-body">
+          <!-- Title-->
+          <h4 class="mt-0">
+            <a href="<%= activity_path(activity) %>" class="text-dark text-decoration-none">
+              <%= activity.name %>
+            </a>
+          </h4>
+
+          <!-- Dates -->
+          <p class="mb-1">
+            <span class="text-muted">
+              <i class="mdi mdi-calendar text-primary"></i>
+              <b>Início:</b> <%= activity.date_start.strftime("%d/%m/%Y") if activity.date_start %>
+              <% if activity.date_end != activity.date_start && activity.date_end%>
+              |
+              <b>Fim:</b> <%= activity.date_end.strftime("%d/%m/%Y") %>
+              <% end%>
+            </span>
+          </p>
+
+          <!-- Horas -->
+          <p class="mb-1">
+            <span class="text-muted">
+              <i class="mdi mdi-calendar text-primary"></i>
+              <b>Horas:</b> <%= activity.start_hour %> | <%= activity.end_hour %>
+            </span>
+          </p>
+
+          <!-- Price -->
+          <p class="mb-1">
+            <span class="text-muted">
+              <i class="mdi mdi-currency-usd text-success"></i>
+              <b>Preço:</b> <%= number_to_currency(activity.price, unit: "€") if activity.price %>
+              <small>/ <%= t(activity.price_by) %></small>
+            </span>
+          </p>
+
+          <!-- Participants info-->
+          <p class="mb-1">
+            <span class="pe-2 text-nowrap mb-2 d-inline-block">
+              <i class="mdi mdi-account-multiple text-muted"></i>
+              <b>10</b> Inscritos
+            </span>
+          </p>
+
+          <!-- Description-->
+          <p class="text-muted font-13 mb-3 sp-line-2">
+            <%= truncate(activity.description, length: 120, omission: '...') %>
+          </p>
+
+          <!-- Action button -->
+          <div class="mt-3">
+            <%= link_to "Participar Da Atividade", participate_activity_path(activity), class: "btn btn-sm px-3", style: "color: black; background-color: #91ff46;", data: { turbo: false } %>
+          </div>
+        </div>
+      </div> <!-- end card box-->
+    </div><!-- end col-->
+  <% end %>
+</div><!-- end row -->
