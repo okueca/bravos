@@ -1,61 +1,0 @@
-{:uriI"‹file://app/assets/libs/apexcharts/locales/sl.json?type=application/json&id=08a6a67823808ffb25f9bebdcff4e450a4d26a030ac9c9ecdd5c7966a35a0f95:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/sl.json;T:	nameI"apexcharts/locales/sl;T:logical_pathI"apexcharts/locales/sl.json;T:content_typeI"application/json;T:sourceI"Ö{
-  "name": "sl",
-  "options": {
-    "months": [
-      "Januar",
-      "Februar",
-      "Marec",
-      "April",
-      "Maj",
-      "Junij",
-      "Julij",
-      "Avgust",
-      "Septemer",
-      "Oktober",
-      "November",
-      "December"
-    ],
-    "shortMonths": [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "Maj",
-      "Jun",
-      "Jul",
-      "Avg",
-      "Sep",
-      "Okt",
-      "Nov",
-      "Dec"
-    ],
-    "days": [
-      "Nedelja",
-      "Ponedeljek",
-      "Torek",
-      "Sreda",
-      "ÄŒetrtek",
-      "Petek",
-      "Sobota"
-    ],
-    "shortDays": ["Ne", "Po", "To", "Sr", "ÄŒe", "Pe", "So"],
-    "toolbar": {
-      "exportToSVG": "Prenesi SVG",
-      "exportToPNG": "Prenesi PNG",
-      "exportToCSV": "Prenesi CSV",
-      "menu": "Menu",
-      "selection": "Izbiranje",
-      "selectionZoom": "Zoom: Izbira",
-      "zoomIn": "Zoom: PribliÅ¾aj",
-      "zoomOut": "Zoom: Oddalji",
-      "pan": "Pomikanje",
-      "reset": "Resetiraj"
-    }
-  }
-}
-;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/sl.json;TTF:charsetI"
-utf-8;F:digest"%¬…!í‰‰Ü¢G~\ûß¬â¡Û®|&)Ôö:$:lengthiÖ:environment_versionI"1.0;T:dependencies_digest"%tlj{ãŠ>¾t]$°[þ}ãÏâ–ú”ÌÉo¶¥
-#K:idI"E08a6a67823808ffb25f9bebdcff4e450a4d26a030ac9c9ecdd5c7966a35a0f95;F

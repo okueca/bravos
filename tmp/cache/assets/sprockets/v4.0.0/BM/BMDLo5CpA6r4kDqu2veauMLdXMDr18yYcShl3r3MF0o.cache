@@ -1,60 +1,0 @@
-{:uriI"�file://app/assets/libs/apexcharts/locales/el.json?type=application/json&id=2d11e6a1e2da1a0606c10c9a5a798fc81fa4a59da9eb9fc309a2c2c5b0b252d1:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/el.json;T:	nameI"apexcharts/locales/el;T:logical_pathI"apexcharts/locales/el.json;T:content_typeI"application/json;T:sourceI",{
-  "name": "el",
-  "options": {
-    "months": [
-      "Ιανουάριος",
-      "Φεβρουάριος",
-      "Μάρτιος",
-      "Απρίλιος",
-      "Μάιος",
-      "Ιούνιος",
-      "Ιούλιος",
-      "Αύγουστος",
-      "Σεπτέμβριος",
-      "Οκτώβριος",
-      "Νοέμβριος",
-      "Δεκέμβριος"
-    ],
-    "shortMonths": [
-      "Ιαν",
-      "Φευ",
-      "Μαρ",
-      "Απρ",
-      "Μάι",
-      "Ιουν",
-      "Ιουλ",
-      "Αυγ",
-      "Σεπ",
-      "Οκτ",
-      "Νοε",
-      "Δεκ"
-    ],
-    "days": [
-      "Κυριακή",
-      "Δευτέρα",
-      "Τρίτη",
-      "Τετάρτη",
-      "Πέμπτη",
-      "Παρασκευή",
-      "Σάββατο"
-    ],
-    "shortDays": ["Κυρ", "Δευ", "Τρι", "Τετ", "Πεμ", "Παρ", "Σαβ"],
-    "toolbar": {
-      "exportToSVG": "Λήψη SVG",
-      "exportToPNG": "Λήψη PNG",
-      "exportToCSV": "Λήψη CSV",
-      "menu": "Menu",
-      "selection": "Επιλογή",
-      "selectionZoom": "Μεγένθυση βάση επιλογής",
-      "zoomIn": "Μεγένθυνση",
-      "zoomOut": "Σμίκρυνση",
-      "pan": "Μετατόπιση",
-      "reset": "Επαναφορά μεγένθυνσης"
-    }
-  }
-}
-;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/el.json;TTF:charsetI"
-utf-8;F:digest"%j���v�x��W$�h�	��1UW��3"1�'�OK�:lengthi,:environment_versionI"1.0;T:dependencies_digest"%����d6S]�h|�T-~�:b��rU?:idI"E2d11e6a1e2da1a0606c10c9a5a798fc81fa4a59da9eb9fc309a2c2c5b0b252d1;F

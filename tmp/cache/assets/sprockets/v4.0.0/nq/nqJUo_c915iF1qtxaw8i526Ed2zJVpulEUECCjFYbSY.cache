@@ -1,61 +1,0 @@
-{:uriI"�file://app/assets/libs/apexcharts/locales/hy.json?type=application/json&id=37990be00f935c1272c411c85c6256d12e9dc82c6389fc2c949eafa541f83efb:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/hy.json;T:	nameI"apexcharts/locales/hy;T:logical_pathI"apexcharts/locales/hy.json;T:content_typeI"application/json;T:sourceI"+{
-  "name": "hy",
-  "options": {
-    "months": [
-      "Հունվար",
-      "Փետրվար",
-      "Մարտ",
-      "Ապրիլ",
-      "Մայիս",
-      "Հունիս",
-      "Հուլիս",
-      "Օգոստոս",
-      "Սեպտեմբեր",
-      "Հոկտեմբեր",
-      "Նոյեմբեր",
-      "Դեկտեմբեր"
-    ],
-    "shortMonths": [
-      "Հնվ",
-      "Փտվ",
-      "Մրտ",
-      "Ապր",
-      "Մյս",
-      "Հնս",
-      "Հլիս",
-      "Օգս",
-      "Սեպ",
-      "Հոկ",
-      "Նոյ",
-      "Դեկ"
-    ],
-    "days": [
-      "Կիրակի",
-      "Երկուշաբթի",
-      "Երեքշաբթի",
-      "Չորեքշաբթի",
-      "Հինգշաբթի",
-      "Ուրբաթ",
-      "Շաբաթ"
-    ],
-    "shortDays": ["Կիր", "Երկ", "Երք", "Չրք", "Հնգ", "Ուրբ", "Շբթ"],
-    "toolbar": {
-      "exportToSVG": "Բեռնել SVG",
-      "exportToPNG": "Բեռնել PNG",
-      "exportToCSV": "Բեռնել CSV",
-      "menu": "Մենյու",
-      "selection": "Ընտրված",
-      "selectionZoom": "Ընտրված հատվածի խոշորացում",
-      "zoomIn": "Խոշորացնել",
-      "zoomOut": "Մանրացնել",
-      "pan": "Տեղափոխում",
-      "reset": "Բերել սկզբնական վիճակի"
-    }
-  }
-}
-;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/hy.json;TTF:charsetI"
-utf-8;F:digest"%�1����e�M���F�]P���M�X-�
-r[T:lengthi+:environment_versionI"1.0;T:dependencies_digest"%�t�R��chU����(�8�M����uQO�!W:idI"E37990be00f935c1272c411c85c6256d12e9dc82c6389fc2c949eafa541f83efb;F

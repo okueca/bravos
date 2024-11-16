@@ -1,62 +1,0 @@
-{:uriI"�file://app/assets/libs/apexcharts/locales/hi.json?type=application/json&id=a57b7b1a345f2d9106bc4a4383c774943367a7d9fdf74c7a8399256cc0a8c728:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/hi.json;T:	nameI"apexcharts/locales/hi;T:logical_pathI"apexcharts/locales/hi.json;T:content_typeI"application/json;T:sourceI"�{
-  "name": "hi",
-  "options": {
-    "months": [
-      "जनवरी",
-      "फ़रवरी",
-      "मार्च",
-      "अप्रैल",
-      "मई",
-      "जून",
-      "जुलाई",
-      "अगस्त",
-      "सितंबर",
-      "अक्टूबर",
-      "नवंबर",
-      "दिसंबर"
-    ],
-    "shortMonths": [
-      "जनवरी",
-      "फ़रवरी",
-      "मार्च",
-      "अप्रैल",
-      "मई",
-      "जून",
-      "जुलाई",
-      "अगस्त",
-      "सितंबर",
-      "अक्टूबर",
-      "नवंबर",
-      "दिसंबर"
-    ],
-    "days": [
-      "रविवार",
-      "सोमवार",
-      "मंगलवार",
-      "बुधवार",
-      "गुरुवार",
-      "शुक्रवार",
-      "शनिवार"
-    ],
-    "shortDays": ["रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"],
-    "toolbar": {
-      "exportToSVG": "निर्यात SVG",
-      "exportToPNG": "निर्यात PNG",
-      "exportToCSV": "निर्यात CSV",
-      "menu": "सूची",
-      "selection": "चयन",
-      "selectionZoom": "ज़ूम करना",
-      "zoomIn": "ज़ूम इन",
-      "zoomOut": "ज़ूम आउट",
-      "pan": "पैनिंग",
-      "reset": "फिर से कायम करना"
-    }
-  }
-}
-;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/hi.json;TTF:charsetI"
-utf-8;F:digest"%q.�� �c�u�;�+�~�@_e�6<q�
-���:lengthi�:environment_versionI"1.0;T:dependencies_digest"%�ς�B�LA�)��X�x��/��O7�
-V��P�:idI"Ea57b7b1a345f2d9106bc4a4383c774943367a7d9fdf74c7a8399256cc0a8c728;F

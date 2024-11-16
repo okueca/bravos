@@ -1,62 +1,0 @@
-{:uriI"ãfile://app/assets/libs/apexcharts/locales/sk.json?type=application/json&id=1e8e36b169be754448323c1a7d282512091cb0aa1a3c4a2fbbf5c0b62e72ee7a:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/sk.json;T:	nameI"apexcharts/locales/sk;T:logical_pathI"apexcharts/locales/sk.json;T:content_typeI"application/json;T:sourceI"Ó{
-  "name": "sk",
-  "options": {
-    "months": [
-      "Janu√°r",
-      "Febru√°r",
-      "Marec",
-      "Apr√≠l",
-      "M√°j",
-      "J√∫n",
-      "J√∫l",
-      "August",
-      "September",
-      "Okt√≥ber",
-      "November",
-      "December"
-    ],
-    "shortMonths": [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "M√°j",
-      "J√∫n",
-      "J√∫l",
-      "Aug",
-      "Sep",
-      "Okt",
-      "Nov",
-      "Dec"
-    ],
-    "days": [
-      "Nedeƒæa",
-      "Pondelok",
-      "Utorok",
-      "Streda",
-      "≈†tvrtok",
-      "Piatok",
-      "Sobota"
-    ],
-    "shortDays": ["Ne", "Po", "Ut", "St", "≈†t", "Pi", "So"],
-    "toolbar": {
-      "exportToSVG": "Stiahnu≈• SVG",
-      "exportToPNG": "Stiahnu≈• PNG",
-      "exportToCSV": "Stiahnu≈• CSV",
-      "menu": "Menu",
-      "selection": "Vyberanie",
-      "selectionZoom": "Zoom: Vyberanie",
-      "zoomIn": "Zoom: Pribl√≠≈æi≈•",
-      "zoomOut": "Zoom: Vzdiali≈•",
-      "pan": "Pres√∫vanie",
-      "reset": "Resetova≈•"
-    }
-  }
-}
-;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/sk.json;TTF:charsetI"
-utf-8;F:digest"%# Ô_¢‰ZÜˇ0@
-Ç´ù
-\2d,<|†ü"ÜxHœy4:lengthiÓ:environment_versionI"1.0;T:dependencies_digest"%4›DÎîô•ÈBrÛ–2 í∏ ö#y˝Ø%”æ¬€w+∑:idI"E1e8e36b169be754448323c1a7d282512091cb0aa1a3c4a2fbbf5c0b62e72ee7a;F

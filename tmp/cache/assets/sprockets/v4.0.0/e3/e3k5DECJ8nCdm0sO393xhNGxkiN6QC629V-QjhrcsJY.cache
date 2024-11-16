@@ -1,60 +1,0 @@
-{:uriI"�file://app/assets/libs/apexcharts/locales/th.json?type=application/json&id=7a2b0a05eeb1392b49f563f1d271e6fe28135eefdc61f5395c21287ded98b644:ET:load_pathI"app/assets/libs;T:filenameI"/app/assets/libs/apexcharts/locales/th.json;T:	nameI"apexcharts/locales/th;T:logical_pathI"apexcharts/locales/th.json;T:content_typeI"application/json;T:sourceI"�{
-  "name": "th",
-  "options": {
-    "months": [
-      "มกราคม",
-      "กุมภาพันธ์",
-      "มีนาคม",
-      "เมษายน",
-      "พฤษภาคม",
-      "มิถุนายน",
-      "กรกฎาคม",
-      "สิงหาคม",
-      "กันยายน",
-      "ตุลาคม",
-      "พฤศจิกายน",
-      "ธันวาคม"
-    ],
-    "shortMonths": [
-      "ม.ค.",
-      "ก.พ.",
-      "มี.ค.",
-      "เม.ย.",
-      "พ.ค.",
-      "มิ.ย.",
-      "ก.ค.",
-      "ส.ค.",
-      "ก.ย.",
-      "ต.ค.",
-      "พ.ย.",
-      "ธ.ค."
-    ],
-    "days": [
-      "อาทิตย์",
-      "จันทร์",
-      "อังคาร",
-      "พุธ",
-      "พฤหัสบดี",
-      "ศุกร์",
-      "เสาร์"
-    ],
-    "shortDays": ["อา", "จ", "อ", "พ", "พฤ", "ศ", "ส"],
-    "toolbar": {
-      "exportToSVG": "ดาวน์โหลด SVG",
-      "exportToPNG": "ดาวน์โหลด PNG",
-      "exportToCSV": "ดาวน์โหลด CSV",
-      "menu": "เมนู",
-      "selection": "เลือก",
-      "selectionZoom": "เลือกจุดที่จะซูม",
-      "zoomIn": "ซูมเข้า",
-      "zoomOut": "ซูมออก",
-      "pan": "ปรากฎว่า",
-      "reset": "รีเซ็ตการซูม"
-    }
-  }
-}
-;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"=file-digest://app/assets/libs/apexcharts/locales/th.json;TTF:charsetI"
-utf-8;F:digest"%��J�";��K��fx��;7#>錻�)-�_q�%�:lengthi�:environment_versionI"1.0;T:dependencies_digest"%�_�AI���C��W�[´m2��E��Nh���":idI"E7a2b0a05eeb1392b49f563f1d271e6fe28135eefdc61f5395c21287ded98b644;F
