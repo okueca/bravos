@@ -65,7 +65,7 @@
 
           <!-- Action button -->
           <div class="mt-3">
-            <% if activity.payments.exists(user_id: current_user.id)%>
+            <% if activity.payments.exists?(user_id: current_user.id)%>
               <% if activity.payments.find_by(user_id: current_user.id).status != "completed" %>
                 <%= link_to "Participar Da Atividade", participate_activity_path(activity), class: "btn btn-sm px-3", style: "color: black; background-color: #91ff46;", data: { turbo: false } %>
               <% end %>
