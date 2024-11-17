@@ -18,7 +18,7 @@ class Payment < ApplicationRecord
         stripe_prices.push({price: price.id, quantity: 1})
        
         s = Stripe::Checkout::Session.create({
-                success_url: "#{ENV['BRAVOS_URL']}#{success_url}",
+                success_url: "#{success_url}",
                 line_items: stripe_prices,
                 payment_method_types: ["card"],
                 automatic_tax:{
